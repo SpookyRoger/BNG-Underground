@@ -1,0 +1,7 @@
+{
+  "bngu_open": {
+    "cat": "menu", "order": 900, "ctx": "tlua", "actionMap": "MenuIndependent",
+    "onDown": "if bngUnderground then bngUnderground.open() end",
+    "title": "BNG Underground: open campaign board", "desc": "Optional binding for the active campaign board. Start the campaign from the BNG Underground main-menu button."
+  }
+}

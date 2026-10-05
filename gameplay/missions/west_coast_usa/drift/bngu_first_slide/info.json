@@ -1,0 +1,115 @@
+{
+  "missionTypeData": {
+    "bronzePoints": 800,
+    "camPath": true,
+    "comboStar": 4,
+    "customIntroText": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "customIntroTextBool": true,
+    "disableDistAndWrongWay": false,
+    "driftType": "Gymkhana",
+    "duration": 120,
+    "goldPoints": 3500,
+    "hasNavi": false,
+    "obstacles": true,
+    "platiniumPoints": 15000,
+    "raceFile": "",
+    "silverPoints": 1800,
+    "startPos": [
+      406.5117798,
+      -154.5001678,
+      144.9855194
+    ],
+    "startRot": [
+      -0.007653044203,
+      0.002170975273,
+      0.9123851001,
+      0.4092556009
+    ],
+    "startScl": false
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | First Slide",
+  "author": "BNG Underground",
+  "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.\nBNG Underground first-clear base purse: $900. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "drift",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_1",
+    "label": "BNG Underground / Chapter 1"
+  },
+  "additionalAttributes": {
+    "difficulty": "low"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "first_slide"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "first_slide"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/drift/005-bootcamp/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/drift/005-bootcamp/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      534.7675781,
+      -99.53781891,
+      146.5759277
+    ],
+    "rot": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/bngu_first_slide/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/005-bootcamp/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/drift/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronze": true,
+      "silver": true,
+      "gold": true
+    },
+    "defaultStarKeys": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

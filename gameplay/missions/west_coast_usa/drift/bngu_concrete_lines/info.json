@@ -1,0 +1,115 @@
+{
+  "missionTypeData": {
+    "bronzePoints": 3000,
+    "camPath": true,
+    "comboStar": 4,
+    "customIntroText": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "customIntroTextBool": true,
+    "disableDistAndWrongWay": false,
+    "driftType": "A to B",
+    "duration": 90,
+    "goldPoints": 12000,
+    "hasNavi": false,
+    "obstacles": true,
+    "platiniumPoints": 75000,
+    "raceFile": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/race.race.json",
+    "silverPoints": 7000,
+    "startPos": [
+      576.8933716,
+      -691.1789551,
+      200.9705505
+    ],
+    "startRot": [
+      -9.194396266e-07,
+      5.715451803e-07,
+      0.5279352062,
+      0.8492846508
+    ],
+    "startScl": false
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Concrete Lines",
+  "author": "BNG Underground",
+  "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.\nBNG Underground first-clear base purse: $2250. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "drift",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_3",
+    "label": "BNG Underground / Chapter 3"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "concrete_lines"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "concrete_lines"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      583.0240479,
+      -688.1670532,
+      200.6717987
+    ],
+    "rot": [
+      7.535489663e-07,
+      1.38138471e-06,
+      0.8778778339,
+      -0.4788846507
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/bngu_concrete_lines/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/drift/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronze": true,
+      "silver": true,
+      "gold": true
+    },
+    "defaultStarKeys": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

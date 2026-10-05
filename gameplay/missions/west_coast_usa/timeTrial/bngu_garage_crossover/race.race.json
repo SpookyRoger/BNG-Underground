@@ -1,0 +1,296 @@
+{
+  "authors": "Anonymous",
+  "classification": {
+    "allowRollingStart": false,
+    "branching": false,
+    "closed": true,
+    "reversible": false
+  },
+  "date": 1732748775,
+  "defaultLaps": 1,
+  "defaultStartPosition": 2,
+  "description": "Description",
+  "difficulty": 24,
+  "endNode": -1,
+  "forwardPrefabs": {},
+  "hideMission": false,
+  "name": "Path",
+  "pacenotes": {},
+  "pathnodes": [
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 2",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.7921709567,
+        -0.6102931921,
+        -0.002719374774
+      ],
+      "oldId": 3,
+      "pos": [
+        -162.7599335,
+        -44.51427841,
+        119.7362595
+      ],
+      "radius": 4.286909975,
+      "recovery": 13,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 4",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.1941677706,
+        0.9808492883,
+        0.01528235997
+      ],
+      "oldId": 4,
+      "pos": [
+        -265.5818787,
+        -72.62038422,
+        119.533783
+      ],
+      "radius": 5.764095951,
+      "recovery": -1,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 6",
+      "navRadiusScale": 1,
+      "normal": [
+        0.9992997699,
+        0.03627157824,
+        0.009183813537
+      ],
+      "oldId": 5,
+      "pos": [
+        -254.6470642,
+        -11.72186852,
+        120.4738998
+      ],
+      "radius": 6.293713688,
+      "recovery": 14,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 8",
+      "navRadiusScale": 1,
+      "normal": [
+        0.738054517,
+        -0.6683037382,
+        -0.09298195249
+      ],
+      "oldId": 6,
+      "pos": [
+        -62.79960251,
+        102.3005981,
+        125.7472382
+      ],
+      "radius": 6.129316025,
+      "recovery": 15,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 10",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.7281381494,
+        -0.6849331555,
+        -0.0261037921
+      ],
+      "oldId": 7,
+      "pos": [
+        -38.45905304,
+        58.74869156,
+        120.1728058
+      ],
+      "radius": 6.460661558,
+      "recovery": 16,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    }
+  ],
+  "prefabs": {},
+  "reversePrefabs": {},
+  "reverseStartPosition": -1,
+  "rollingReverseStartPosition": -1,
+  "rollingStartPosition": -1,
+  "segments": [
+    {
+      "capsules": {},
+      "from": 3,
+      "mode": "waypoint",
+      "name": "Segment 5",
+      "oldId": 8,
+      "to": 4
+    },
+    {
+      "capsules": {},
+      "from": 4,
+      "mode": "waypoint",
+      "name": "Segment 7",
+      "oldId": 9,
+      "to": 5
+    },
+    {
+      "capsules": {},
+      "from": 5,
+      "mode": "waypoint",
+      "name": "Segment 9",
+      "oldId": 10,
+      "to": 6
+    },
+    {
+      "capsules": {},
+      "from": 6,
+      "mode": "waypoint",
+      "name": "Segment 11",
+      "oldId": 11,
+      "to": 7
+    },
+    {
+      "capsules": {},
+      "from": 7,
+      "mode": "waypoint",
+      "name": "Segment 12",
+      "oldId": 12,
+      "to": 3
+    }
+  ],
+  "startNode": 3,
+  "startPositions": [
+    {
+      "name": "Start Position 3",
+      "oldId": 2,
+      "pos": [
+        -163.5782928,
+        -43.38718796,
+        119.736351
+      ],
+      "rot": [
+        -0.0007360156351,
+        -0.001414909295,
+        0.887148217,
+        -0.4614818495
+      ]
+    },
+    {
+      "name": "Pathnode 2 Recovery Forward",
+      "oldId": 13,
+      "pos": [
+        -162.7599335,
+        -44.51427841,
+        119.7362595
+      ],
+      "rot": [
+        -0.0006001947765,
+        -0.001220048949,
+        0.8972994126,
+        -0.4414203387
+      ]
+    },
+    {
+      "name": "Pathnode 6 Recovery Forward",
+      "oldId": 14,
+      "pos": [
+        -254.6470642,
+        -11.72186852,
+        120.4738998
+      ],
+      "rot": [
+        -0.003305367532,
+        0.003187569273,
+        0.694156528,
+        0.719809439
+      ]
+    },
+    {
+      "name": "Pathnode 8 Recovery Forward",
+      "oldId": 15,
+      "pos": [
+        -62.79960251,
+        102.3005981,
+        125.7472382
+      ],
+      "rot": [
+        0.01887047395,
+        -0.04254418981,
+        0.9131241834,
+        0.4050162007
+      ]
+    },
+    {
+      "name": "Pathnode 10 Recovery Forward",
+      "oldId": 16,
+      "pos": [
+        -38.45905304,
+        58.74869156,
+        120.1728058
+      ],
+      "rot": [
+        -0.005178881638,
+        -0.0119816612,
+        0.9178451705,
+        -0.3967239116
+      ]
+    }
+  ]
+}

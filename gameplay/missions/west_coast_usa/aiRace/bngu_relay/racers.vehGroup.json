@@ -1,0 +1,11 @@
+{
+  "name": "Relay: Carrier Wave",
+  "type": "custom",
+  "data": [
+    {
+      "model": "bx",
+      "config": "street_tuned_M",
+      "paintName": "random"
+    }
+  ]
+}

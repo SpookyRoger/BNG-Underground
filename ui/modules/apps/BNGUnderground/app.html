@@ -1,0 +1,8 @@
+<div class="bngu-app">
+  <link rel="stylesheet" href="/ui/modules/apps/BNGUnderground/style.css">
+  <button class="bngu-widget" ng-if="vm.active" ng-click="open()" title="Open city map · controller: Start / keyboard: Escape">
+    <span class="bngu-mark">BNG<span>UNDERGROUND</span></span>
+    <span class="bngu-widget-money">{{money(vm.cash)}}<small>{{vm.rep}} REP · CH {{vm.chapter}}</small></span>
+  </button>
+  <button class="bngu-sms" ng-if="vm.active && vm.unreadMessages" ng-click="inbox()" title="Read messages · controller: Start, Messages"><small>{{vm.unreadMessages}} NEW · {{vm.latestMessage.sender}}</small><strong>{{vm.latestMessage.title}}</strong><span>START → MESSAGES</span></button>
+</div>

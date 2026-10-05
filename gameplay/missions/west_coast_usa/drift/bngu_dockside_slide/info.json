@@ -1,0 +1,115 @@
+{
+  "missionTypeData": {
+    "bronzePoints": 1500,
+    "camPath": true,
+    "comboStar": 10,
+    "customIntroText": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "customIntroTextBool": true,
+    "disableDistAndWrongWay": false,
+    "driftType": "Gymkhana",
+    "duration": 90,
+    "goldPoints": 6500,
+    "hasNavi": false,
+    "obstacles": true,
+    "platiniumPoints": 70000,
+    "raceFile": "",
+    "silverPoints": 3500,
+    "startPos": [
+      474.3834839,
+      1610.556396,
+      74.93856049
+    ],
+    "startRot": [
+      0.003436721637,
+      0.003386783286,
+      -0.7018759632,
+      0.7122828447
+    ],
+    "startScl": false
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Dockside Slide",
+  "author": "BNG Underground",
+  "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.\nBNG Underground first-clear base purse: $1550. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "drift",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_2",
+    "label": "BNG Underground / Chapter 2"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "dockside_slide"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "dockside_slide"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/drift/009-Portsideslide/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/drift/009-Portsideslide/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      546.5793457,
+      1599.496338,
+      74.66396332
+    ],
+    "rot": [
+      1.050090929e-06,
+      3.478130834e-08,
+      -0.02793304647,
+      0.9996097963
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/bngu_dockside_slide/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/009-Portsideslide/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/drift/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronze": true,
+      "silver": true,
+      "gold": true
+    },
+    "defaultStarKeys": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Nocturne: Underground",
+  "type": "custom",
+  "data": [
+    {
+      "model": "sunburst2",
+      "config": "trackday_M",
+      "paintName": "random"
+    }
+  ]
+}

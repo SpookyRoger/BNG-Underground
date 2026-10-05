@@ -1,0 +1,139 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "allowRollingStart": false,
+    "bronze1Laps": 1,
+    "bronze2Laps": -1,
+    "bronze3Laps": -1,
+    "bronzeDynamicLapTimeBase": 10,
+    "bronzeDynamicLapTimePerLap": 40,
+    "bronzeTime": 240,
+    "bronzeTime2": 315,
+    "bronzeTime3": 270,
+    "bronzeTimePenalty": 20,
+    "bronzeTimeTotal": 180,
+    "canChangeLapAmount": false,
+    "closed": true,
+    "defaultLaps": 1,
+    "dynamicRewardsExponentForLaps": 1,
+    "flipLimit": -1,
+    "flipPenalty": 5,
+    "gold1Laps": 1,
+    "gold2Laps": -1,
+    "gold3Laps": -1,
+    "goldDynamicLapTimeBase": 6,
+    "goldDynamicLapTimePerLap": 30,
+    "goldTime": 150,
+    "goldTime2": 205,
+    "goldTime3": 200,
+    "goldTimePenalty": 0,
+    "goldTimeTotal": 60,
+    "justFinishPenalty": 30,
+    "lapTime1": 55,
+    "lapTime2": 50,
+    "lapTime3": 45,
+    "lapTime4": 40,
+    "lapTime5": 35,
+    "mapPreviewMode": "navgraph",
+    "recoverLimit": -1,
+    "recoverPenalty": 5,
+    "reversible": false,
+    "silver1Laps": 1,
+    "silver2Laps": -1,
+    "silver3Laps": -1,
+    "silverDynamicLapTimeBase": 8,
+    "silverDynamicLapTimePerLap": 35,
+    "silverTime": 190,
+    "silverTime2": 235,
+    "silverTime3": 220,
+    "silverTimePenalty": 10,
+    "silverTimeTotal": 120,
+    "startScreenText": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse."
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Salt Air",
+  "author": "BNG Underground",
+  "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.\nBNG Underground first-clear base purse: $1750. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "timeTrial",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_2",
+    "label": "BNG Underground / Chapter 2"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "salt_air"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "salt_air"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -521.7622681,
+      2010.733032,
+      78.81229401
+    ],
+    "rot": [
+      -0.001748641061,
+      -0.004552390826,
+      -0.6212528848,
+      0.7835949662
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/bngu_salt_air/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/timeTrial/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronzeTime": true,
+      "silverTime": true,
+      "goldTime": true
+    },
+    "defaultStarKeys": [
+      "bronzeTime",
+      "silverTime",
+      "goldTime"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

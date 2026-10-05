@@ -1,0 +1,735 @@
+{
+  "authors": "Anonymous",
+  "classification": {
+    "allowRollingStart": false,
+    "branching": false,
+    "closed": true,
+    "reversible": false
+  },
+  "date": 1732748573,
+  "defaultLaps": 1,
+  "defaultStartPosition": 2,
+  "description": "Description",
+  "difficulty": 24,
+  "endNode": -1,
+  "forwardPrefabs": {},
+  "hideMission": false,
+  "name": "Path",
+  "pacenotes": {},
+  "pathnodes": [
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 2",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.709958519,
+        -0.7039590971,
+        0.0200122712
+      ],
+      "oldId": 3,
+      "pos": [
+        -555.2310791,
+        141.8443298,
+        100.6268539
+      ],
+      "radius": 5.717284084,
+      "recovery": 29,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 4",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.6995195871,
+        0.7002904621,
+        0.1423573533
+      ],
+      "oldId": 4,
+      "pos": [
+        -650.852417,
+        60.51984787,
+        103.2634888
+      ],
+      "radius": 6.279682959,
+      "recovery": 30,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 6",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.7173981157,
+        0.6935210967,
+        0.06609411426
+      ],
+      "oldId": 5,
+      "pos": [
+        -714.1228027,
+        123.8572388,
+        118.3747025
+      ],
+      "radius": 5.920868114,
+      "recovery": 31,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 8",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.7093587472,
+        0.6958258717,
+        0.1124122954
+      ],
+      "oldId": 6,
+      "pos": [
+        -789.8942871,
+        199.4736023,
+        138.7041626
+      ],
+      "radius": 5.920685624,
+      "recovery": 32,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 10",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.7040569703,
+        0.7101005915,
+        -0.007805929104
+      ],
+      "oldId": 7,
+      "pos": [
+        -868.6652832,
+        278.2944641,
+        159.4082794
+      ],
+      "radius": 6.130155919,
+      "recovery": 33,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 12",
+      "navRadiusScale": 1,
+      "normal": [
+        0.01303024216,
+        0.997583111,
+        -0.06825063735
+      ],
+      "oldId": 8,
+      "pos": [
+        -919.9538574,
+        447.3859253,
+        153.2308502
+      ],
+      "radius": 5.78956647,
+      "recovery": 34,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 14",
+      "navRadiusScale": 1,
+      "normal": [
+        0.9984340993,
+        0.04179907121,
+        -0.0371777744
+      ],
+      "oldId": 9,
+      "pos": [
+        -911.1826172,
+        555.0717163,
+        131.9580383
+      ],
+      "radius": 5.738600336,
+      "recovery": 35,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 16",
+      "navRadiusScale": 1,
+      "normal": [
+        0.7077949185,
+        0.7044656274,
+        -0.05248364709
+      ],
+      "oldId": 10,
+      "pos": [
+        -721.5099487,
+        565.0838623,
+        120.0708847
+      ],
+      "radius": 7.90142764,
+      "recovery": 36,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 18",
+      "navRadiusScale": 1,
+      "normal": [
+        0.9794740474,
+        -0.1664901029,
+        -0.1136293808
+      ],
+      "oldId": 11,
+      "pos": [
+        -654.6642456,
+        575.2290039,
+        106.6242905
+      ],
+      "radius": 5.333286708,
+      "recovery": 37,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 20",
+      "navRadiusScale": 1,
+      "normal": [
+        0.7196455169,
+        -0.6940706056,
+        -0.01939908307
+      ],
+      "oldId": 12,
+      "pos": [
+        -580.6282349,
+        624.5748901,
+        90.68094635
+      ],
+      "radius": 8.362321248,
+      "recovery": 38,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 22",
+      "navRadiusScale": 1,
+      "normal": [
+        0.7230637046,
+        -0.6907680946,
+        -0.004280021544
+      ],
+      "oldId": 13,
+      "pos": [
+        -454.5352783,
+        504.6821594,
+        96.41719818
+      ],
+      "radius": 3.531239819,
+      "recovery": 39,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 24",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.2469584124,
+        -0.9690082686,
+        0.005875193867
+      ],
+      "oldId": 14,
+      "pos": [
+        -311.6772156,
+        330.4743042,
+        101.7522507
+      ],
+      "radius": 3.018575552,
+      "recovery": 40,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    },
+    {
+      "customFields": {
+        "names": {},
+        "tags": {},
+        "types": {},
+        "values": {}
+      },
+      "mode": "manual",
+      "name": "Pathnode 26",
+      "navRadiusScale": 1,
+      "normal": [
+        -0.9010417571,
+        -0.4336903037,
+        -0.006039243889
+      ],
+      "oldId": 15,
+      "pos": [
+        -461.20224,
+        164.586731,
+        100.3562241
+      ],
+      "radius": 4.771495186,
+      "recovery": 41,
+      "reverseRecovery": -1,
+      "sidePadding": [
+        1,
+        3
+      ],
+      "visible": true
+    }
+  ],
+  "prefabs": {},
+  "reversePrefabs": {},
+  "reverseStartPosition": -1,
+  "rollingReverseStartPosition": -1,
+  "rollingStartPosition": -1,
+  "segments": [
+    {
+      "capsules": {},
+      "from": 3,
+      "mode": "waypoint",
+      "name": "Segment 5",
+      "oldId": 16,
+      "to": 4
+    },
+    {
+      "capsules": {},
+      "from": 4,
+      "mode": "waypoint",
+      "name": "Segment 7",
+      "oldId": 17,
+      "to": 5
+    },
+    {
+      "capsules": {},
+      "from": 5,
+      "mode": "waypoint",
+      "name": "Segment 9",
+      "oldId": 18,
+      "to": 6
+    },
+    {
+      "capsules": {},
+      "from": 6,
+      "mode": "waypoint",
+      "name": "Segment 11",
+      "oldId": 19,
+      "to": 7
+    },
+    {
+      "capsules": {},
+      "from": 7,
+      "mode": "waypoint",
+      "name": "Segment 13",
+      "oldId": 20,
+      "to": 8
+    },
+    {
+      "capsules": {},
+      "from": 8,
+      "mode": "waypoint",
+      "name": "Segment 15",
+      "oldId": 21,
+      "to": 9
+    },
+    {
+      "capsules": {},
+      "from": 9,
+      "mode": "waypoint",
+      "name": "Segment 17",
+      "oldId": 22,
+      "to": 10
+    },
+    {
+      "capsules": {},
+      "from": 10,
+      "mode": "waypoint",
+      "name": "Segment 19",
+      "oldId": 23,
+      "to": 11
+    },
+    {
+      "capsules": {},
+      "from": 11,
+      "mode": "waypoint",
+      "name": "Segment 21",
+      "oldId": 24,
+      "to": 12
+    },
+    {
+      "capsules": {},
+      "from": 12,
+      "mode": "waypoint",
+      "name": "Segment 23",
+      "oldId": 25,
+      "to": 13
+    },
+    {
+      "capsules": {},
+      "from": 13,
+      "mode": "waypoint",
+      "name": "Segment 25",
+      "oldId": 26,
+      "to": 14
+    },
+    {
+      "capsules": {},
+      "from": 14,
+      "mode": "waypoint",
+      "name": "Segment 27",
+      "oldId": 27,
+      "to": 15
+    },
+    {
+      "capsules": {},
+      "from": 15,
+      "mode": "waypoint",
+      "name": "Segment 28",
+      "oldId": 28,
+      "to": 3
+    }
+  ],
+  "startNode": 3,
+  "startPositions": [
+    {
+      "name": "Start Position 3",
+      "oldId": 2,
+      "pos": [
+        -556.7503052,
+        143.6973572,
+        100.5937576
+      ],
+      "rot": [
+        0.004106163096,
+        0.009766025158,
+        0.9217809285,
+        -0.3875663609
+      ]
+    },
+    {
+      "name": "Pathnode 2 Recovery Forward",
+      "oldId": 29,
+      "pos": [
+        -555.2310791,
+        141.8443298,
+        100.6268539
+      ],
+      "rot": [
+        0.003848978959,
+        0.009236781754,
+        0.9230193573,
+        -0.3846233656
+      ]
+    },
+    {
+      "name": "Pathnode 4 Recovery Forward",
+      "oldId": 30,
+      "pos": [
+        -633.1588745,
+        63.94810486,
+        102.8800354
+      ],
+      "rot": [
+        0.001754645364,
+        0.004232795018,
+        0.9237645334,
+        -0.3829335341
+      ]
+    },
+    {
+      "name": "Pathnode 6 Recovery Forward",
+      "oldId": 31,
+      "pos": [
+        -701.3945313,
+        111.5526276,
+        118.3635788
+      ],
+      "rot": [
+        -0.0042804033,
+        -0.001815580112,
+        -0.3904820928,
+        0.9205987818
+      ]
+    },
+    {
+      "name": "Pathnode 8 Recovery Forward",
+      "oldId": 32,
+      "pos": [
+        -780.6846924,
+        190.4397278,
+        138.6998901
+      ],
+      "rot": [
+        -0.001671076598,
+        -0.0007016286219,
+        -0.3871269968,
+        0.922024622
+      ]
+    },
+    {
+      "name": "Pathnode 10 Recovery Forward",
+      "oldId": 33,
+      "pos": [
+        -868.6652832,
+        278.2944641,
+        159.4082794
+      ],
+      "rot": [
+        0.003609079866,
+        0.001485902712,
+        -0.3807055014,
+        0.924688103
+      ]
+    },
+    {
+      "name": "Pathnode 12 Recovery Forward",
+      "oldId": 34,
+      "pos": [
+        -919.9538574,
+        447.3859253,
+        153.2308502
+      ],
+      "rot": [
+        0.03414450128,
+        -0.0002229850025,
+        0.006526679711,
+        0.9993955702
+      ]
+    },
+    {
+      "name": "Pathnode 14 Recovery Forward",
+      "oldId": 35,
+      "pos": [
+        -911.1826172,
+        555.0717163,
+        131.9580383
+      ],
+      "rot": [
+        0.01341873196,
+        -0.01286871575,
+        0.6920407517,
+        0.7216189658
+      ]
+    },
+    {
+      "name": "Pathnode 16 Recovery Forward",
+      "oldId": 36,
+      "pos": [
+        -721.5099487,
+        565.0838623,
+        120.0708847
+      ],
+      "rot": [
+        0.02424078358,
+        -0.01007435281,
+        0.3836398972,
+        0.9231095932
+      ]
+    },
+    {
+      "name": "Pathnode 18 Recovery Forward",
+      "oldId": 37,
+      "pos": [
+        -654.6642456,
+        575.2290039,
+        106.6242905
+      ],
+      "rot": [
+        0.0367132165,
+        -0.04348029427,
+        0.7628218607,
+        0.6440996915
+      ]
+    },
+    {
+      "name": "Pathnode 20 Recovery Forward",
+      "oldId": 38,
+      "pos": [
+        -580.6282349,
+        624.5748901,
+        90.68094635
+      ],
+      "rot": [
+        0.00379292715,
+        -0.008927690773,
+        0.9203373928,
+        0.3910051068
+      ]
+    },
+    {
+      "name": "Pathnode 22 Recovery Forward",
+      "oldId": 39,
+      "pos": [
+        -454.5352783,
+        504.6821594,
+        96.41719818
+      ],
+      "rot": [
+        0.0008414719843,
+        -0.001967636139,
+        0.9194473009,
+        0.3932074276
+      ]
+    },
+    {
+      "name": "Pathnode 24 Recovery Forward",
+      "oldId": 40,
+      "pos": [
+        -311.6772156,
+        330.4743042,
+        101.7522507
+      ],
+      "rot": [
+        0.0003655819862,
+        0.002914772723,
+        0.9922217497,
+        -0.1244482615
+      ]
+    },
+    {
+      "name": "Pathnode 26 Recovery Forward",
+      "oldId": 41,
+      "pos": [
+        -461.20224,
+        164.586731,
+        100.3562241
+      ],
+      "rot": [
+        0.001606806283,
+        0.002556633216,
+        -0.8466655597,
+        0.5321168216
+      ]
+    }
+  ]
+}

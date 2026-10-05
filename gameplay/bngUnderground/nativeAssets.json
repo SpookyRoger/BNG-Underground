@@ -1,0 +1,149 @@
+{
+  "origin": "Installed BeamNG mission data; original applicable content terms retained.",
+  "files": [
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_first_call",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/007-Street/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_first_call/race.race.json",
+      "sourceSha256": "d6c3e755136b699dd9d6fae920ae2ab5147843cfb273cc54dfa82efad5a33789",
+      "sha256": "53656c47a15f18f171a0e04dd4e37a51d8da2f8ffae7d75b5200f22bc20292c2",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_alley_signal",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/022-Alleyway/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_alley_signal/race.race.json",
+      "sourceSha256": "bb373ced45f66390ccc0a2eff192eb782e64ec140e154799c2f3ca517d013c31",
+      "sha256": "e21e1c82ccc2fdf07081dac431876335ab8f3221c57033d35b3ae33c59903709",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/drift/bngu_first_slide",
+      "source": "/gameplay/missions/west_coast_usa/drift/005-bootcamp/cameraPath.camPath.json",
+      "target": "/gameplay/missions/west_coast_usa/drift/bngu_first_slide/cameraPath.camPath.json",
+      "sourceSha256": "da2bc4a2114e8541555f1c5ad9cc00212bd7dc660b62f1463f2a7a91a03a80ed",
+      "sha256": "9320c69aaf197d7b1ac0ff5d653d9b009dbcb7ba881f91b9ee67e0007fb2655b",
+      "nativeEditor": "/gameplay/missionTypes/drift/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_garage_crossover",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_commercial_002/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_garage_crossover/race.race.json",
+      "sourceSha256": "14efcea3973bad6bc677a06ee180e04ac64595e7df25ddef6b3a1cff1e0b1d8b",
+      "sha256": "3ac40d6c339408dfb4f584e5226410385fe74a7879c5949b9d88ab88c9672077",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/drift/bngu_dockside_slide",
+      "source": "/gameplay/missions/west_coast_usa/drift/009-Portsideslide/cameraPath.camPath.json",
+      "target": "/gameplay/missions/west_coast_usa/drift/bngu_dockside_slide/cameraPath.camPath.json",
+      "sourceSha256": "ed7012d5d63c02652b76d81025875456c06df6e3eadd5653cffb5e9cffedc94a",
+      "sha256": "50ec9799bccdadd267dab9debe1f0a3388528ba78338551d29fcc5b54651e4f4",
+      "nativeEditor": "/gameplay/missionTypes/drift/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_salt_air",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_salt_air/race.race.json",
+      "sourceSha256": "5117a06c99c0113e7913fe2b5a747109aaf2df5b5ccaa2b8664015db66c83e5a",
+      "sha256": "b7465dfba60d6cce1102e04c2bbedfb7d96b2bb36f93fc408cc9bdf021de1847",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_warehouse_clock",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/008-Street/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_warehouse_clock/race.race.json",
+      "sourceSha256": "a7b24b1f24e8d4e8cb99967e48b2925a3fe6cd935e77d25604885dd986b1c010",
+      "sha256": "5003c2ac1b71926728cfce819120a4f9f8136d3fbba6ff86f54d8ec4e5a5ca1e",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_pier_pressure",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_vintage_001/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_pier_pressure/race.race.json",
+      "sourceSha256": "a5504fe493e61aed40779afdcb6b0832407bd0d8ad763b7399d383a59ead5f77",
+      "sha256": "d0c6851c45d020ba7915ab551b44e8cdee7787179f13fb8d63f8c04c83ea1fc6",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/drift/bngu_concrete_lines",
+      "source": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/cameraPath.camPath.json",
+      "target": "/gameplay/missions/west_coast_usa/drift/bngu_concrete_lines/cameraPath.camPath.json",
+      "sourceSha256": "a3c0b24500065764e674ccf3649d9d273e14764cfc2b38b11a8615d6beea9e1c",
+      "sha256": "58090d2f0b408d4ae4dd1833b64c74778faec1b4ec3926e61631176a811116ea",
+      "nativeEditor": "/gameplay/missionTypes/drift/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_overpass_clock",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/010-Highway/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_overpass_clock/race.race.json",
+      "sourceSha256": "bc07d8f450fd23d4cf34402b8c1f11342eed8df0593e6952da1acb4162101347",
+      "sha256": "5d4bef1579980d0c812cb21d64c5ac71848849e73bb9c43cb5f295436a353e48",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_lens_flare",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_lens_flare/race.race.json",
+      "sourceSha256": "b64732e8c37f41dd06d6a7503e583d6ad4ef2ba5e7439fc496fb96880070dfa2",
+      "sha256": "76b7ec0fce6e6e88e681903c7cb5873519388ff821fcc6e258ce64f883176969",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_switchback_clock",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_switchback_clock/race.race.json",
+      "sourceSha256": "bf6b16b7ce3bd23087ac7e6ed9bf72c453b589395d99d733ae8214b546250abd",
+      "sha256": "61fe52bd2651a0b31e1f687f3fcb40049d0a77a7801c29cf08e88e5b4ac54cca",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/drift/bngu_slip_angle",
+      "source": "/gameplay/missions/west_coast_usa/drift/004-Industrial/cameraPath.camPath.json",
+      "target": "/gameplay/missions/west_coast_usa/drift/bngu_slip_angle/cameraPath.camPath.json",
+      "sourceSha256": "9126912f6c0f10164c408f296296928c7dd5f14367b70a2461fb7d7f7c8d6383",
+      "sha256": "c7ee2f74f1516c1d4faa02ee907774d2f40080bb3534672673cc532ef7715da1",
+      "nativeEditor": "/gameplay/missionTypes/drift/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_ridge_clock",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/006-Cell/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_ridge_clock/race.race.json",
+      "sourceSha256": "8a20ad9f820fd9285efcd1a8e1efc94430192e90a698d73eb563de23dc07e3a1",
+      "sha256": "e6166a56e671960c06acea0311e4f82e692619f6e1bd65b3eb5188f186ee34b9",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_urban_current",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_advanced_003/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_urban_current/race.race.json",
+      "sourceSha256": "41dc50673de908614d0753898fe3deb3ec8eadefa14d111389ccc9496b9ae24e",
+      "sha256": "34eab737b7c1dafd2dbcb2f42fee239e61630e628ec0444dd99cca6db989b55a",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/drift/bngu_smoke_signal",
+      "source": "/gameplay/missions/west_coast_usa/drift/006-circuit/cameraPath.camPath.json",
+      "target": "/gameplay/missions/west_coast_usa/drift/bngu_smoke_signal/cameraPath.camPath.json",
+      "sourceSha256": "44710f4cdfa06559143039027ada2436b4e3a9dcaad22026a5b0a3e14537423a",
+      "sha256": "461421d996b542ceb7a9d0c3e61858b1b91ad80a24a7e34ddddc589e94bf571f",
+      "nativeEditor": "/gameplay/missionTypes/drift/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_end_of_dial",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/009-Highway/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_end_of_dial/race.race.json",
+      "sourceSha256": "3df8644c03918e5c27d1c78cccc90d676fc3139735b45b370a55d0b265b0465d",
+      "sha256": "c69ebcd16f6285be27242cf85635aa3436afabb43fab60347eb34998ea1052d8",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    },
+    {
+      "missionId": "west_coast_usa/timeTrial/bngu_all_city",
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/race.race.json",
+      "target": "/gameplay/missions/west_coast_usa/timeTrial/bngu_all_city/race.race.json",
+      "sourceSha256": "b1882766e6184188f7c4dd77f14c8075479f3159dbad10c24722e2860e3c67d1",
+      "sha256": "1eaca1f0f1200287c0f5abd087e3527f935e33c6d3aec4b00ae2f7ae67335b67",
+      "nativeEditor": "/gameplay/missionTypes/timeTrial/editor.lua"
+    }
+  ]
+}

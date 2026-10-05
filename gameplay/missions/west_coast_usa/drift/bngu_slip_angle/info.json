@@ -1,0 +1,115 @@
+{
+  "missionTypeData": {
+    "bronzePoints": 4500,
+    "camPath": true,
+    "comboStar": 4,
+    "customIntroText": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "customIntroTextBool": true,
+    "disableDistAndWrongWay": false,
+    "driftType": "A to B",
+    "duration": 90,
+    "goldPoints": 15000,
+    "hasNavi": false,
+    "obstacles": true,
+    "platiniumPoints": 20000,
+    "raceFile": "/gameplay/missions/west_coast_usa/drift/004-Industrial/race.race.json",
+    "silverPoints": 9000,
+    "startPos": [
+      17.19941711,
+      646.4447021,
+      74.88855743
+    ],
+    "startRot": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "startScl": false
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Slip Angle",
+  "author": "BNG Underground",
+  "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.\nBNG Underground first-clear base purse: $3200. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "drift",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_4",
+    "label": "BNG Underground / Chapter 4"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "slip_angle"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "slip_angle"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/drift/004-Industrial/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/drift/004-Industrial/preview.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -10.38590622,
+      576.3099365,
+      74.72003174
+    ],
+    "rot": [
+      0,
+      0,
+      0.9999995232,
+      0.0009347954183
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/bngu_slip_angle/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/004-Industrial/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/drift/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronze": true,
+      "silver": true,
+      "gold": true
+    },
+    "defaultStarKeys": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

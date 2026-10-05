@@ -1,0 +1,137 @@
+{
+  "version": "0.31.0",
+  "saveSchema": 1,
+  "title": "BNG Underground",
+  "level": "west_coast_usa",
+  "startingCash": 16000,
+  "starters": [
+    "covet",
+    "pessima",
+    "bx"
+  ],
+  "replayMultiplier": 0.42,
+  "silverMultiplier": 1.15,
+  "goldMultiplier": 1.35,
+  "towCost": 250,
+  "repairCost": 0,
+  "resprayCost": 450,
+  "styleKitCost": 1800,
+  "shopRadius": 55,
+  "workshopRadius": 20,
+  "discoveryRep": 20,
+  "features": {
+    "streetTraffic": true,
+    "coursePreviews": true,
+    "sponsors": true,
+    "discovery": true,
+    "showcases": true,
+    "night": true,
+    "messaging": true,
+    "minimap": true,
+    "tuning": true,
+    "parts": true,
+    "wheels": true,
+    "engineKits": true,
+    "paintFinishes": true,
+    "liveWorkshop": true,
+    "bodywork": true,
+    "liveTuning": true,
+    "liveBuilds": true,
+    "results": true
+  },
+  "nightPreset": "night",
+  "nightTimeFallback": 0.5,
+  "upgradeTiers": [
+    {
+      "id": "street",
+      "name": "Street package",
+      "chapter": 1,
+      "cost": 2000,
+      "description": "A proven factory sport configuration: responsive and easy to live with."
+    },
+    {
+      "id": "club",
+      "name": "Club package",
+      "chapter": 2,
+      "cost": 5200,
+      "description": "A matched power, grip and chassis build for the faster district crews."
+    },
+    {
+      "id": "pro",
+      "name": "Pro package",
+      "chapter": 4,
+      "cost": 10500,
+      "description": "Competition hardware. More pace, more commitment. Learn its limits."
+    }
+  ],
+  "paints": [
+    {
+      "id": "midnight",
+      "name": "Midnight violet",
+      "rgba": [
+        0.13,
+        0.025,
+        0.27,
+        1
+      ]
+    },
+    {
+      "id": "cyan",
+      "name": "Electric cyan",
+      "rgba": [
+        0.02,
+        0.65,
+        0.78,
+        1
+      ]
+    },
+    {
+      "id": "lime",
+      "name": "Acid green",
+      "rgba": [
+        0.45,
+        0.8,
+        0.03,
+        1
+      ]
+    },
+    {
+      "id": "ember",
+      "name": "Hot orange",
+      "rgba": [
+        0.9,
+        0.13,
+        0.025,
+        1
+      ]
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl white",
+      "rgba": [
+        0.86,
+        0.88,
+        0.93,
+        1
+      ]
+    },
+    {
+      "id": "black",
+      "name": "Obsidian",
+      "rgba": [
+        0.018,
+        0.022,
+        0.03,
+        1
+      ]
+    }
+  ],
+  "introduction": {
+    "friend": "Mara",
+    "car": "bx",
+    "tier": 2,
+    "paint": "cyan",
+    "dealership": "starter_dealer",
+    "message": "Welcome to Belasco. Take my modified 200BX to Quarryside Auto Sales; the GPS is already set. You've got $16,000 for your own keys. Park in the lot, stop, and choose a Covet, Pessima or 200BX. Keep the change. Once my car is back, the city's meets are yours to choose."
+  }
+}

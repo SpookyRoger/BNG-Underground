@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "gripBuilds": ["stock", "street", "club", "pro"],
+  "categories": [
+    {"id":"front","name":"Front bumper","cost":450,"geometrySensitive":true,"pattern":"bumper_F(?:_popup|_fixed)?","description":"Native front bumper and its matched trim, grille and lip. Wider donor fenders must match your equipped build."},
+    {"id":"rear","name":"Rear bumper","cost":450,"geometrySensitive":true,"pattern":"bumper_R","description":"Native rear bumper and matched cosmetic attachments. The rest of your bodywork stays fitted."},
+    {"id":"skirts","name":"Side skirts","cost":350,"geometrySensitive":true,"pattern":"sideskirt(?:s|_L|_R)?","description":"A complete native skirt set, including both sides where the car uses separate pieces."},
+    {"id":"hood","name":"Hood","cost":600,"geometrySensitive":false,"pattern":"hood(?:_popup|_fixed)?","description":"Native hood and its supported cosmetic attachments for the current front end."},
+    {"id":"spoiler","name":"Spoiler","cost":550,"geometrySensitive":false,"pattern":"spoiler(?:_hatch|_coupe)?","description":"Native rear spoiler for the current body. BeamNG models the fitted part's mass and aerodynamic behavior."}
+  ],
+  "extraDonors": [
+    {"id":"runner","car":"bx","config":"runner_M","name":"Street custom","chapter":1},
+    {"id":"drift_style","car":"bx","config":"pro_drift_M","name":"Drift style","chapter":2}
+  ],
+  "donors": [
+    {"id":"stock","name":"Factory","chapter":1},
+    {"id":"street","name":"Sport","chapter":1},
+    {"id":"club","name":"Club","chapter":2},
+    {"id":"pro","name":"Track","chapter":4},
+    {"id":"kit","name":"Custom","chapter":1}
+  ]
+}

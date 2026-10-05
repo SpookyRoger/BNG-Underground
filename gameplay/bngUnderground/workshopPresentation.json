@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "previewDelay": 0.3,
+  "vehicleTimeout": 30,
+  "statsTimeout": 8,
+  "lightPreset": "noon",
+  "cameraDistance": 6.5,
+  "cameraOffsetX": -0.2,
+  "views": [
+    { "id": "front", "name": "Front quarter", "rotation": [145, -15, 0] },
+    { "id": "side", "name": "Side", "rotation": [90, -10, 0] },
+    { "id": "rear", "name": "Rear quarter", "rotation": [35, -15, 0] }
+  ]
+}

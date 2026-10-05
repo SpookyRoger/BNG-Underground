@@ -1,0 +1,11 @@
+{
+  "name": "Switch: Shift Change",
+  "type": "custom",
+  "data": [
+    {
+      "model": "covet",
+      "config": "sport",
+      "paintName": "random"
+    }
+  ]
+}

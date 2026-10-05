@@ -1,0 +1,236 @@
+[
+  {
+    "id": "invite_first_call",
+    "chapter": 1,
+    "wins": 0,
+    "eventId": "first_call",
+    "sender": "Mara",
+    "title": "Find your rhythm",
+    "text": "A clock run is open tonight. No pressure to start here: the map has several meets. Set GPS if you want to learn the city one clean run at a time."
+  },
+  {
+    "id": "invite_side_streets",
+    "chapter": 1,
+    "wins": 0,
+    "eventId": "side_streets",
+    "sender": "Kite",
+    "title": "The block is awake",
+    "text": "We run a circuit through these streets. Bring your own build and see who you can stay with. Come when you're ready; the meet isn't going anywhere."
+  },
+  {
+    "id": "invite_long_way_home",
+    "chapter": 1,
+    "wins": 1,
+    "eventId": "long_way_home",
+    "sender": "Switch",
+    "title": "Take the long way",
+    "text": "Heard you put a result on the board. There's a sprint with room to breathe. Bring whatever you own. Or spend your winnings first and meet us later."
+  },
+  {
+    "id": "invite_first_slide",
+    "chapter": 1,
+    "wins": 2,
+    "eventId": "first_slide",
+    "sender": "Lumen",
+    "title": "A different kind of line",
+    "text": "The drift crowd is at First Slide. If that's your thing, bring a rear-drive build. If it isn't, the circuit and sprint crews still have plenty for you."
+  },
+  {
+    "id": "invite_pipeline",
+    "chapter": 2,
+    "wins": 0,
+    "eventId": "pipeline",
+    "sender": "Switch",
+    "title": "Dockside signal",
+    "text": "Kite vouched for you. Pipeline is running through the industrial district tonight. Several other dock meets are open too. Pick your line."
+  },
+  {
+    "id": "invite_dock_circuit",
+    "chapter": 2,
+    "wins": 1,
+    "eventId": "dock_circuit",
+    "sender": "Mara",
+    "title": "A crew to chase",
+    "text": "The dock crew likes close racing. Bring your own car to their circuit. Club parts are available at the workshop if your build needs some attention."
+  },
+  {
+    "id": "invite_redline_receipt",
+    "chapter": 2,
+    "wins": 2,
+    "eventId": "redline_receipt",
+    "sender": "Switch",
+    "title": "Straight talk",
+    "text": "Redline Receipt is open. A drag build can earn its keep here, but this is an invitation, not a requirement. You've got options."
+  },
+  {
+    "id": "invite_cross_town",
+    "chapter": 3,
+    "wins": 0,
+    "eventId": "cross_town",
+    "sender": "Relay",
+    "title": "Cross-town frequency",
+    "text": "The freeway crowd knows your name now. Cross Town is a good place to introduce your headlights. Your other meets are on the map."
+  },
+  {
+    "id": "invite_night_loop",
+    "chapter": 3,
+    "wins": 1,
+    "eventId": "night_loop",
+    "sender": "Mara",
+    "title": "Keep it tidy",
+    "text": "Night Loop rewards a balanced car. You could build for grip, save for another set of keys, or head to a different meet. It's your garage."
+  },
+  {
+    "id": "invite_concrete_lines",
+    "chapter": 3,
+    "wins": 2,
+    "eventId": "concrete_lines",
+    "sender": "Lumen",
+    "title": "Smoke in the city",
+    "text": "Concrete Lines has room for a styled drift build. We're looking for smooth transitions. There's no deadline; come back when the car feels right."
+  },
+  {
+    "id": "invite_ridge_run",
+    "chapter": 4,
+    "wins": 0,
+    "eventId": "ridge_run",
+    "sender": "Vale",
+    "title": "Meet us above the noise",
+    "text": "The hills are open. Ridge Run asks for a clean line and a little restraint. Find your own pace before you chase ours."
+  },
+  {
+    "id": "invite_last_exit",
+    "chapter": 4,
+    "wins": 1,
+    "eventId": "last_exit",
+    "sender": "Relay",
+    "title": "One more exit",
+    "text": "Last Exit is moving tonight. Bring a car you trust at speed. The hill clocks and circuits are open if you prefer another route."
+  },
+  {
+    "id": "invite_slip_angle",
+    "chapter": 4,
+    "wins": 2,
+    "eventId": "slip_angle",
+    "sender": "Lumen",
+    "title": "A silhouette on the ridge",
+    "text": "Slip Angle has a drift meet above the city. A specialist build helps. Nobody's keeping you from the grip events while you build one."
+  },
+  {
+    "id": "invite_city_frequency",
+    "chapter": 5,
+    "wins": 0,
+    "eventId": "city_frequency",
+    "sender": "Mara",
+    "title": "Every district is listening",
+    "text": "You've brought this city together. City Frequency is one of several open meets. Four different results will bring Nocturne out."
+  },
+  {
+    "id": "invite_full_band",
+    "chapter": 5,
+    "wins": 1,
+    "eventId": "full_band",
+    "sender": "Relay",
+    "title": "Use the whole dial",
+    "text": "Full Band is open for a sprint. Take your favourite car, or try something different from your garage. The night is yours to arrange."
+  },
+  {
+    "id": "invite_smoke_signal",
+    "chapter": 5,
+    "wins": 2,
+    "eventId": "smoke_signal",
+    "sender": "Lumen",
+    "title": "Leave a signal",
+    "text": "Smoke Signal is waiting for the drift crowd. If you're chasing your final four wins elsewhere, we'll still be here after the rival."
+  },
+  {
+    "id": "invite_rival_kite",
+    "chapter": 1,
+    "eventId": "kite",
+    "sender": "Kite",
+    "rival": true,
+    "title": "Let's put a name to this.",
+    "text": "You've earned a challenge. My meet is marked on your map. Bring a car you own, and come when you're ready. Every other meet stays open."
+  },
+  {
+    "id": "invite_rival_switch",
+    "chapter": 2,
+    "eventId": "switch",
+    "sender": "Switch",
+    "rival": true,
+    "title": "Let's put a name to this.",
+    "text": "You've earned a challenge. My meet is marked on your map. Bring a car you own, and come when you're ready. Every other meet stays open."
+  },
+  {
+    "id": "invite_rival_relay",
+    "chapter": 3,
+    "eventId": "relay",
+    "sender": "Relay",
+    "rival": true,
+    "title": "Let's put a name to this.",
+    "text": "You've earned a challenge. My meet is marked on your map. Bring a car you own, and come when you're ready. Every other meet stays open."
+  },
+  {
+    "id": "invite_rival_vale",
+    "chapter": 4,
+    "eventId": "vale",
+    "sender": "Vale",
+    "rival": true,
+    "title": "Let's put a name to this.",
+    "text": "You've earned a challenge. My meet is marked on your map. Bring a car you own, and come when you're ready. Every other meet stays open."
+  },
+  {
+    "id": "invite_rival_nocturne",
+    "chapter": 5,
+    "eventId": "nocturne",
+    "sender": "Nocturne",
+    "rival": true,
+    "title": "Let's put a name to this.",
+    "text": "You've earned a challenge. My meet is marked on your map. Bring a car you own, and come when you're ready. Every other meet stays open."
+  },
+  {
+    "id": "invite_garage_crossover",
+    "chapter": 1,
+    "wins": 0,
+    "eventId": "garage_crossover",
+    "sender": "Mara",
+    "title": "A shakedown near home",
+    "text": "The commercial blocks have a two-lap clock meet. A good place to learn how your build changes direction. Pick it whenever you like; the other chapter meets still count."
+  },
+  {
+    "id": "invite_pier_pressure",
+    "chapter": 2,
+    "wins": 0,
+    "eventId": "pier_pressure",
+    "sender": "Switch",
+    "title": "The pier has its own rhythm",
+    "text": "A new clock meet runs through the waterfront warehouses. Two laps, your own car. Try a different setup at Saltline first, or take what you already know."
+  },
+  {
+    "id": "invite_lens_flare",
+    "chapter": 3,
+    "wins": 0,
+    "eventId": "lens_flare",
+    "sender": "Relay",
+    "title": "Lights, camera, your car",
+    "text": "The studio crowd has opened a figure-eight clock run. It mixes quick roads and tight lots. Build for balance, bring a specialist, or choose another meet; your call."
+  },
+  {
+    "id": "invite_urban_current",
+    "chapter": 4,
+    "wins": 0,
+    "eventId": "urban_current",
+    "sender": "Mara",
+    "title": "More than straight-line pace",
+    "text": "Urban Current connects the climbs, the street grid and the plaza. Three laps ask for consistency. Tune the car you own and come when you are ready."
+  },
+  {
+    "id": "invite_all_city",
+    "chapter": 5,
+    "wins": 0,
+    "eventId": "all_city",
+    "sender": "Relay",
+    "title": "A longer night",
+    "text": "All City is open: two full laps linking the island, bridge and mainland. It pays for the commitment. Take the long run if you want, or qualify for Nocturne through the shorter meets."
+  }
+]

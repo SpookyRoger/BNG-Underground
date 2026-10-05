@@ -1,0 +1,135 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "camPathActive": true,
+    "damageFailActive": false,
+    "damageFailText": "missions.aiRace.general.damageFail",
+    "damageLimit": 20000,
+    "flipLimit": -1,
+    "goalCollisionsLimit": 1,
+    "goalCollisionsTarget": 5,
+    "goalLaps": 2,
+    "goalRecoveries": 0,
+    "goalTime": 200,
+    "lapCount": 1,
+    "mapPreviewMode": "navgraph",
+    "maxRacerCount": 3,
+    "minRacerCount": 3,
+    "playerStartIndex": 0,
+    "prefabActive": true,
+    "raceFile": "/gameplay/missions/west_coast_usa/aiRace/004-drive/race.race.json",
+    "racerAggression": 0.975,
+    "racerAwareness": true,
+    "racerCount": 3,
+    "racerRandomnessScale": 1,
+    "racerRough": false,
+    "racerRubberbandMode": false,
+    "racerSkill": 0.855,
+    "recoverLimit": -1,
+    "shuffleGroup": false,
+    "smartStartPlace": false,
+    "startText": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "stoppedLimit": 4,
+    "useGroundmarkers": true,
+    "vehicleFilters": {
+      "allowAuxiliaryVehicles": false,
+      "allowLoadedTrailers": false,
+      "baseFilter": {},
+      "manualAdditions": {},
+      "manualRemovals": {},
+      "maxVehicles": 0,
+      "popAttribute": "Population",
+      "probabilitySettings": {}
+    },
+    "vehicleGroupActive": true,
+    "vehicleGroupByClass": "disabled",
+    "vehicleGroupByClassActive": false,
+    "vehiclePerformanceOffset": 5
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Cross Town",
+  "author": "BNG Underground",
+  "description": "One start, one finish. Take a podium place to put another district victory on your record.\nBNG Underground first-clear base purse: $2550. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "aiRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_3",
+    "label": "BNG Underground / Chapter 3"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "cross_town"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "cross_town"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/aiRace/004-drive/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/aiRace/004-drive/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -247.0674286,
+      660.0418701,
+      74.78826904
+    ],
+    "rot": [
+      -1.022374196e-05,
+      1.020485584e-05,
+      0.7064527632,
+      0.7077601946
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/bngu_cross_town/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/004-drive/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/aiRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "finishBronze": true,
+      "finishSilver": true,
+      "finishGold": true
+    },
+    "defaultStarKeys": [
+      "finishBronze",
+      "finishSilver",
+      "finishGold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

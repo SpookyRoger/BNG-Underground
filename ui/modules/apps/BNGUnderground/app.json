@@ -1,0 +1,20 @@
+{
+  "name": "BNG Underground",
+  "author": "BNG Underground",
+  "version": "0.10.0",
+  "description": "A single-player tuner campaign. Your cars. Your races. Your city.",
+  "directive": "bngUnderground",
+  "domElement": "<bng-underground></bng-underground>",
+  "types": [
+    "ui.apps.categories.misc"
+  ],
+  "css": {
+    "width": "340px",
+    "height": "170px",
+    "top": "90px",
+    "left": "24px"
+  },
+  "preserveAspectRatio": false,
+  "isAuxiliary": false,
+  "interactive": "yes"
+}

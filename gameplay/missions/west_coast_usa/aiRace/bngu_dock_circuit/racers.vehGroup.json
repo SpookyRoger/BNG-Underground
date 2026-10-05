@@ -1,0 +1,21 @@
+{
+  "name": "Dock Crew Circuit",
+  "type": "custom",
+  "data": [
+    {
+      "model": "covet",
+      "config": "sport",
+      "paintName": "random"
+    },
+    {
+      "model": "bx",
+      "config": "200bx_type_ls_M",
+      "paintName": "random"
+    },
+    {
+      "model": "pessima",
+      "config": "ZX_M",
+      "paintName": "random"
+    }
+  ]
+}

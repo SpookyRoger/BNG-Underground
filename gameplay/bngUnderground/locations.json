@@ -1,0 +1,119 @@
+[
+  {
+    "id": "home",
+    "name": "Mara's Garage",
+    "type": "garage",
+    "chapter": 1,
+    "sourceParkingSpot": "commercialGarageParkingOutside1",
+    "description": "Your home base at the commercial garage. Park in the marked bay and stop to buy cars, fit packages, respray or change builds.",
+    "pos": [
+      -284.2545776,
+      -69.42679596,
+      119.4356308
+    ],
+    "rot": [
+      0,
+      0,
+      -0.732225864,
+      0.681061969
+    ],
+    "parkingScale": [
+      4.060256958,
+      16.18700027,
+      14.54558659
+    ]
+  },
+  {
+    "id": "docks",
+    "name": "Saltline Customs",
+    "type": "shop",
+    "chapter": 2,
+    "sourceParkingSpot": "exhaustShop_parking",
+    "sourceSitesFile": "levels/west_coast_usa/facilities/delivery/mechanics.sites.json",
+    "description": "A city tuning workshop and your first style showcase. Park in the marked bay and stop to work on your car.",
+    "showcaseStyle": 2,
+    "showcaseReward": 1800,
+    "pos": [
+      -572.7053833,
+      158.8735657,
+      100.516098
+    ],
+    "rot": [
+      0.004366662819,
+      0.001861516153,
+      -0.3894694448,
+      0.9210270643
+    ],
+    "parkingScale": [
+      2.5,
+      5.494043112,
+      3
+    ]
+  },
+  {
+    "id": "city",
+    "name": "Lumen Meet",
+    "type": "meet",
+    "chapter": 2,
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/007-Street/",
+    "description": "Bring a styled build. The photographers are watching.",
+    "showcaseStyle": 3,
+    "showcaseReward": 3200,
+    "pos": [
+      -707.4020386,
+      129.270462,
+      118.5249786
+    ],
+    "rot": [
+      -0.00132149295,
+      -0.003752723336,
+      0.3794088066,
+      0.9252204895
+    ]
+  },
+  {
+    "id": "hills",
+    "name": "Ridgeline Lookout",
+    "type": "meet",
+    "chapter": 4,
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/",
+    "description": "One last magazine shoot above the city.",
+    "showcaseStyle": 4,
+    "showcaseReward": 6000,
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      -0.0001672614891,
+      0.0009922716815,
+      0.9860883158,
+      0.1662191949
+    ]
+  },
+  {
+    "id": "starter_dealer",
+    "name": "Quarryside Auto Sales",
+    "type": "dealership",
+    "chapter": 1,
+    "sourceParkingSpot": "garageDealership1",
+    "description": "Your first set of keys. Park and stop here to choose from three starter cars.",
+    "pos": [
+      836.3638916,
+      -535.3862305,
+      165.1521759
+    ],
+    "rot": [
+      0.002731130585,
+      0.0009946844612,
+      -0.7095405583,
+      -0.7046585372
+    ],
+    "parkingScale": [
+      2.5,
+      6,
+      3
+    ]
+  }
+]

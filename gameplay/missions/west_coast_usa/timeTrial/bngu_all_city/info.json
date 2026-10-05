@@ -1,0 +1,139 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "allowRollingStart": false,
+    "bronze1Laps": 2,
+    "bronze2Laps": -1,
+    "bronze3Laps": -1,
+    "bronzeDynamicLapTimeBase": 10,
+    "bronzeDynamicLapTimePerLap": 40,
+    "bronzeTime": 840,
+    "bronzeTime2": 175,
+    "bronzeTime3": 170,
+    "bronzeTimePenalty": 20,
+    "bronzeTimeTotal": 180,
+    "canChangeLapAmount": false,
+    "closed": true,
+    "defaultLaps": 2,
+    "dynamicRewardsExponentForLaps": 1,
+    "flipLimit": -1,
+    "flipPenalty": 5,
+    "gold1Laps": 2,
+    "gold2Laps": -1,
+    "gold3Laps": -1,
+    "goldDynamicLapTimeBase": 6,
+    "goldDynamicLapTimePerLap": 30,
+    "goldTime": 640,
+    "goldTime2": 55,
+    "goldTime3": 50,
+    "goldTimePenalty": 0,
+    "goldTimeTotal": 60,
+    "justFinishPenalty": 5,
+    "lapTime1": 300,
+    "lapTime2": 50,
+    "lapTime3": 45,
+    "lapTime4": 40,
+    "lapTime5": 35,
+    "mapPreviewMode": "navgraph",
+    "recoverLimit": 1,
+    "recoverPenalty": 5,
+    "reversible": false,
+    "silver1Laps": 2,
+    "silver2Laps": -1,
+    "silver3Laps": -1,
+    "silverDynamicLapTimeBase": 8,
+    "silverDynamicLapTimePerLap": 35,
+    "silverTime": 730,
+    "silverTime2": 115,
+    "silverTime3": 110,
+    "silverTimePenalty": 10,
+    "silverTimeTotal": 120,
+    "startScreenText": "Two long laps from the bridge to the island and back through Belasco. An optional endurance meet: settle in and make every district count."
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | All City",
+  "author": "BNG Underground",
+  "description": "Two long laps from the bridge to the island and back through Belasco. An optional endurance meet: settle in and make every district count.\nBNG Underground first-clear base purse: $8500. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "timeTrial",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_5",
+    "label": "BNG Underground / Chapter 5"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "all_city"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "all_city"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      204.6707153,
+      838.8943481,
+      101.4601212
+    ],
+    "rot": [
+      0.007879874907,
+      0.0007438028774,
+      -0.1097084938,
+      0.9939322918
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/bngu_all_city/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/timeTrial/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronzeTime": true,
+      "silverTime": true,
+      "goldTime": true
+    },
+    "defaultStarKeys": [
+      "bronzeTime",
+      "silverTime",
+      "goldTime"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

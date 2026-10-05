@@ -1,0 +1,115 @@
+{
+  "missionTypeData": {
+    "bronzePoints": 6000,
+    "camPath": true,
+    "comboStar": 4,
+    "customIntroText": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "customIntroTextBool": true,
+    "disableDistAndWrongWay": false,
+    "driftType": "A to B",
+    "duration": 90,
+    "goldPoints": 20000,
+    "hasNavi": false,
+    "obstacles": true,
+    "platiniumPoints": 25000,
+    "raceFile": "/gameplay/missions/west_coast_usa/drift/006-circuit/race.race.json",
+    "silverPoints": 12000,
+    "startPos": [
+      449.6118469,
+      -180.1683807,
+      145.4621124
+    ],
+    "startRot": [
+      0.004283758286,
+      0.004009536333,
+      -0.730081823,
+      0.6833345482
+    ],
+    "startScl": false
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Smoke Signal",
+  "author": "BNG Underground",
+  "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.\nBNG Underground first-clear base purse: $4300. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "drift",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_5",
+    "label": "BNG Underground / Chapter 5"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "smoke_signal"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "smoke_signal"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/drift/006-circuit/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/drift/006-circuit/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      534.7675781,
+      -99.53781891,
+      146.5759277
+    ],
+    "rot": [
+      -0.004021201876,
+      0.004271844049,
+      0.6854106586,
+      0.7281330993
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/bngu_smoke_signal/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/drift/006-circuit/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/drift/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronze": true,
+      "silver": true,
+      "gold": true
+    },
+    "defaultStarKeys": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

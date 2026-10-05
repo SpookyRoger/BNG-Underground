@@ -1,0 +1,135 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "camPathActive": true,
+    "damageFailActive": false,
+    "damageFailText": "missions.aiRace.general.damageFail",
+    "damageLimit": 10000,
+    "flipLimit": -1,
+    "goalCollisionsLimit": 1,
+    "goalCollisionsTarget": 5,
+    "goalLaps": 3,
+    "goalRecoveries": 0,
+    "goalTime": 180,
+    "lapCount": 2,
+    "mapPreviewMode": "navgraph",
+    "maxRacerCount": 3,
+    "minRacerCount": 3,
+    "playerStartIndex": 0,
+    "prefabActive": true,
+    "raceFile": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/race.race.json",
+    "racerAggression": 1.045,
+    "racerAwareness": true,
+    "racerCount": 3,
+    "racerRandomnessScale": 1,
+    "racerRough": false,
+    "racerRubberbandMode": false,
+    "racerSkill": 0.945,
+    "recoverLimit": -1,
+    "shuffleGroup": false,
+    "smartStartPlace": false,
+    "startText": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "stoppedLimit": 0,
+    "useGroundmarkers": true,
+    "vehicleFilters": {
+      "allowAuxiliaryVehicles": false,
+      "allowLoadedTrailers": false,
+      "baseFilter": {},
+      "manualAdditions": {},
+      "manualRemovals": {},
+      "maxVehicles": 0,
+      "popAttribute": "Population",
+      "probabilitySettings": {}
+    },
+    "vehicleGroupActive": true,
+    "vehicleGroupByClass": "disabled",
+    "vehicleGroupByClassActive": false,
+    "vehiclePerformanceOffset": 5
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Last Lights",
+  "author": "BNG Underground",
+  "description": "Hold your line through the city. Finish on the podium to make this meet count.\nBNG Underground first-clear base purse: $4800. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "aiRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_5",
+    "label": "BNG Underground / Chapter 5"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "last_lights"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "last_lights"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      0.0008255243694,
+      0.0007359911607,
+      0.9868822859,
+      0.1614376989
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/bngu_last_lights/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/aiRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "finishBronze": true,
+      "finishSilver": true,
+      "finishGold": true
+    },
+    "defaultStarKeys": [
+      "finishBronze",
+      "finishSilver",
+      "finishGold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

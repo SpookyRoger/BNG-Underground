@@ -1,0 +1,135 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "camPathActive": true,
+    "damageFailActive": false,
+    "damageFailText": "missions.aiRace.general.damageFail",
+    "damageLimit": 20000,
+    "flipLimit": -1,
+    "goalCollisionsLimit": 1,
+    "goalCollisionsTarget": 10,
+    "goalLaps": 3,
+    "goalRecoveries": 0,
+    "goalTime": 180,
+    "lapCount": 2,
+    "mapPreviewMode": "navgraph",
+    "maxRacerCount": 3,
+    "minRacerCount": 3,
+    "playerStartIndex": 0,
+    "prefabActive": true,
+    "raceFile": "/gameplay/missions/west_coast_usa/aiRace/005-highway/race.race.json",
+    "racerAggression": 1.01,
+    "racerAwareness": true,
+    "racerCount": 3,
+    "racerRandomnessScale": 1,
+    "racerRough": false,
+    "racerRubberbandMode": false,
+    "racerSkill": 0.8999999999999999,
+    "recoverLimit": -1,
+    "shuffleGroup": false,
+    "smartStartPlace": false,
+    "startText": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "stoppedLimit": 4,
+    "useGroundmarkers": true,
+    "vehicleFilters": {
+      "allowAuxiliaryVehicles": false,
+      "allowLoadedTrailers": false,
+      "baseFilter": {},
+      "manualAdditions": {},
+      "manualRemovals": {},
+      "maxVehicles": 0,
+      "popAttribute": "Population",
+      "probabilitySettings": {}
+    },
+    "vehicleGroupActive": true,
+    "vehicleGroupByClass": "disabled",
+    "vehicleGroupByClassActive": false,
+    "vehiclePerformanceOffset": 5
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | High Tension",
+  "author": "BNG Underground",
+  "description": "Hold your line through the city. Finish on the podium to make this meet count.\nBNG Underground first-clear base purse: $3500. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "aiRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_4",
+    "label": "BNG Underground / Chapter 4"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "high_tension"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "high_tension"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/aiRace/005-highway/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/aiRace/005-highway/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      546.2619019,
+      776.7661743,
+      115.1792374
+    ],
+    "rot": [
+      0.0006853699528,
+      0.001247435975,
+      0.8764284928,
+      -0.4815299276
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/bngu_high_tension/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/005-highway/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/aiRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "finishBronze": true,
+      "finishSilver": true,
+      "finishGold": true
+    },
+    "defaultStarKeys": [
+      "finishBronze",
+      "finishSilver",
+      "finishGold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

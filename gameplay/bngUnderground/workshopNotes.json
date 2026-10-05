@@ -1,0 +1,29 @@
+[
+  {
+    "id": "workshop_first_setup",
+    "chapter": 1,
+    "tier": 0,
+    "sender": "Mara",
+    "title": "Build the car around you",
+    "locationId": "home",
+    "text": "Your car, your setup. Stop at my garage and open Tuning to adjust tyre pressures for free. More adjustable hardware brings more controls. Make a change, drive a meet, and see how it feels. Every owned build keeps its own settings."
+  },
+  {
+    "id": "workshop_club_setup",
+    "chapter": 2,
+    "tier": 2,
+    "sender": "Switch",
+    "title": "Parts are only the beginning",
+    "locationId": "docks",
+    "text": "Club hardware is in your garage. Bring it to Saltline and see what that build lets you adjust: the fitted parts decide. Keep a setup for each package instead of throwing away what worked. You can always restore the package settings and try another line."
+  },
+  {
+    "id": "workshop_pro_setup",
+    "chapter": 4,
+    "tier": 3,
+    "sender": "Mara",
+    "title": "Make the hardware work for you",
+    "locationId": "home",
+    "text": "You have Pro hardware now. Race brakes, coilovers and adjustable differentials give you more ways to shape a car. Check Tuning at the garage; change one thing at a time. Your settings stay with that build when you switch cars, repair or return another night."
+  }
+]

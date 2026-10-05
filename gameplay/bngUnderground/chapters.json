@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "First Signal",
+    "district": "Belasco streets",
+    "boss": "Kite",
+    "requiredWins": 3,
+    "requiredRep": 180,
+    "sender": "Mara",
+    "intro": "Welcome to Belasco. Pick your first car, then choose your meets. Three different clears open a call to Kite. Bronze is enough at regular meets; beat Kite to move on. Save for another car or build the one you have. Every event uses a car from your own garage."
+  },
+  {
+    "id": 2,
+    "name": "Steel & Salt",
+    "district": "Industrial and docks",
+    "boss": "Switch",
+    "requiredWins": 3,
+    "requiredRep": 400,
+    "sender": "Mara",
+    "intro": "Kite put your name out there. The dock crews run harder and the payouts follow. Club packages and the ETK I-Series are now within reach. Try a sponsor contract before your next race."
+  },
+  {
+    "id": 3,
+    "name": "Night Frequency",
+    "district": "Freeways and the city",
+    "boss": "Relay",
+    "requiredWins": 3,
+    "requiredRep": 650,
+    "sender": "Switch",
+    "intro": "You have a car people recognize. Relay owns the freeway crowd. Run the clocks, earn a few clean victories, and make them remember your headlights."
+  },
+  {
+    "id": 4,
+    "name": "Above the Static",
+    "district": "Hills and high-speed routes",
+    "boss": "Vale",
+    "requiredWins": 3,
+    "requiredRep": 900,
+    "sender": "Mara",
+    "intro": "Vale does not care about noise. Smooth inputs, a balanced chassis, and knowing when to lift: that is how you win up here. Pro hardware is available at the garage."
+  },
+  {
+    "id": 5,
+    "name": "Underground",
+    "district": "All of Belasco",
+    "boss": "Nocturne",
+    "requiredWins": 4,
+    "requiredRep": 1250,
+    "sender": "Relay",
+    "intro": "One last invite. Nocturne has brought every district together. Four different clears open the final challenge. Choose your meets, then beat Nocturne. After that, this city is yours to keep driving."
+  }
+]

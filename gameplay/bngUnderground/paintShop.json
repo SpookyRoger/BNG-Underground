@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "defaultFinish": "metallic",
+  "finishes": [
+    {"id": "metallic", "name": "Metallic", "description": "Reflective metallic colour under a glossy clear coat. This retains the original campaign respray finish.", "metallic": 0.65, "roughness": 0.25, "clearcoat": 0.9, "clearcoatRoughness": 0.12},
+    {"id": "gloss", "name": "Solid gloss", "description": "Solid colour with a smooth, glossy clear coat and no metallic effect.", "metallic": 0, "roughness": 0, "clearcoat": 1, "clearcoatRoughness": 0.08},
+    {"id": "satin", "name": "Satin", "description": "Solid colour with softer reflections and a light clear coat.", "metallic": 0, "roughness": 0.45, "clearcoat": 0.1, "clearcoatRoughness": 0.5},
+    {"id": "matte", "name": "Matte", "description": "Solid colour with a rough surface and no glossy clear coat.", "metallic": 0, "roughness": 0.7, "clearcoat": 0, "clearcoatRoughness": 1}
+  ]
+}

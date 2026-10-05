@@ -1,0 +1,21 @@
+{
+  "name": "Return Signal",
+  "type": "custom",
+  "data": [
+    {
+      "model": "bx",
+      "config": "street_tuned_M",
+      "paintName": "random"
+    },
+    {
+      "model": "pessima",
+      "config": "GTz",
+      "paintName": "random"
+    },
+    {
+      "model": "sunburst2",
+      "config": "sport_S_M",
+      "paintName": "random"
+    }
+  ]
+}

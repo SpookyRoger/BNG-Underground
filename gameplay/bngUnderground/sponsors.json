@@ -1,0 +1,46 @@
+[
+  {
+    "id": "apex",
+    "name": "Apex Workshop",
+    "tagline": "Built here. Driven everywhere.",
+    "chapter": 2,
+    "style": 0,
+    "kinds": [
+      "Circuit",
+      "Sprint",
+      "Rival"
+    ],
+    "wins": 4,
+    "reward": 5000,
+    "bonus": 0.08
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen Audio",
+    "tagline": "Give the city something to talk about.",
+    "chapter": 2,
+    "style": 2,
+    "kinds": [
+      "Drift",
+      "Time attack"
+    ],
+    "wins": 3,
+    "reward": 5500,
+    "bonus": 0.1
+  },
+  {
+    "id": "vector",
+    "name": "Vector Performance",
+    "tagline": "Proof at the finish line.",
+    "chapter": 3,
+    "style": 1,
+    "kinds": [
+      "Drag",
+      "Circuit",
+      "Rival"
+    ],
+    "wins": 5,
+    "reward": 9000,
+    "bonus": 0.12
+  }
+]

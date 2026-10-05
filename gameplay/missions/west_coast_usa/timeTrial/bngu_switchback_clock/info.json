@@ -1,0 +1,139 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "allowRollingStart": false,
+    "bronze1Laps": 1,
+    "bronze2Laps": -1,
+    "bronze3Laps": -1,
+    "bronzeDynamicLapTimeBase": 10,
+    "bronzeDynamicLapTimePerLap": 40,
+    "bronzeTime": 300,
+    "bronzeTime2": 175,
+    "bronzeTime3": 170,
+    "bronzeTimePenalty": 20,
+    "bronzeTimeTotal": 180,
+    "canChangeLapAmount": false,
+    "closed": true,
+    "defaultLaps": 1,
+    "dynamicRewardsExponentForLaps": 1,
+    "flipLimit": -1,
+    "flipPenalty": 5,
+    "gold1Laps": 1,
+    "gold2Laps": -1,
+    "gold3Laps": -1,
+    "goldDynamicLapTimeBase": 6,
+    "goldDynamicLapTimePerLap": 30,
+    "goldTime": 190,
+    "goldTime2": 55,
+    "goldTime3": 50,
+    "goldTimePenalty": 0,
+    "goldTimeTotal": 60,
+    "justFinishPenalty": 30,
+    "lapTime1": 240,
+    "lapTime2": 180,
+    "lapTime3": 135,
+    "lapTime4": 110,
+    "lapTime5": 100,
+    "mapPreviewMode": "navgraph",
+    "recoverLimit": -1,
+    "recoverPenalty": 5,
+    "reversible": false,
+    "silver1Laps": 1,
+    "silver2Laps": -1,
+    "silver3Laps": -1,
+    "silverDynamicLapTimeBase": 8,
+    "silverDynamicLapTimePerLap": 35,
+    "silverTime": 240,
+    "silverTime2": 115,
+    "silverTime3": 110,
+    "silverTimePenalty": 10,
+    "silverTimeTotal": 120,
+    "startScreenText": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse."
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Switchback Clock",
+  "author": "BNG Underground",
+  "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.\nBNG Underground first-clear base purse: $3250. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "timeTrial",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_4",
+    "label": "BNG Underground / Chapter 4"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "switchback_clock"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "switchback_clock"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      -0.0001672614891,
+      0.0009922716815,
+      0.9860883158,
+      0.1662191949
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/bngu_switchback_clock/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/timeTrial/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronzeTime": true,
+      "silverTime": true,
+      "goldTime": true
+    },
+    "defaultStarKeys": [
+      "bronzeTime",
+      "silverTime",
+      "goldTime"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

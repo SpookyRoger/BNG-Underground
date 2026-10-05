@@ -1,0 +1,105 @@
+{
+  "missionTypeData": {
+    "camPath": false,
+    "dialBronze": 0.3,
+    "dialGold": 0.1,
+    "dialSilver": 0.2,
+    "dragFilepath": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/dragSettings.json",
+    "reactionBronze": 1,
+    "reactionGold": 0.2,
+    "reactionSilver": 0.5,
+    "startDesc": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "startMessage": "Launch Window",
+    "thresholdBronze": 1,
+    "thresholdGold": 4,
+    "thresholdSilver": 2,
+    "timeBronze": 19,
+    "timeGold": 13,
+    "timeSilver": 16
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": false,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Launch Window",
+  "author": "BNG Underground",
+  "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.\nBNG Underground first-clear base purse: $2300. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "dragStripRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_3",
+    "label": "BNG Underground / Chapter 3"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "launch_window"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "launch_window"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/preview.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/dragStripRace/bngu_launch_window/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/dragStripRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "timeBronze": true,
+      "timeSilver": true,
+      "timeGold": true
+    },
+    "defaultStarKeys": [
+      "timeBronze",
+      "timeSilver",
+      "timeGold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

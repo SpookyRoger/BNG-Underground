@@ -1,0 +1,21 @@
+{
+  "name": "City Frequency",
+  "type": "custom",
+  "data": [
+    {
+      "model": "sunburst2",
+      "config": "trackday_M",
+      "paintName": "random"
+    },
+    {
+      "model": "bx",
+      "config": "track_M",
+      "paintName": "random"
+    },
+    {
+      "model": "covet",
+      "config": "race",
+      "paintName": "random"
+    }
+  ]
+}

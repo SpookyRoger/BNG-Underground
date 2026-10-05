@@ -1,0 +1,139 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "allowRollingStart": false,
+    "bronze1Laps": 2,
+    "bronze2Laps": -1,
+    "bronze3Laps": -1,
+    "bronzeDynamicLapTimeBase": 10,
+    "bronzeDynamicLapTimePerLap": 40,
+    "bronzeTime": 250,
+    "bronzeTime2": 175,
+    "bronzeTime3": 170,
+    "bronzeTimePenalty": 20,
+    "bronzeTimeTotal": 180,
+    "canChangeLapAmount": false,
+    "closed": true,
+    "defaultLaps": 2,
+    "dynamicRewardsExponentForLaps": 1,
+    "flipLimit": -1,
+    "flipPenalty": 5,
+    "gold1Laps": 2,
+    "gold2Laps": -1,
+    "gold3Laps": -1,
+    "goldDynamicLapTimeBase": 6,
+    "goldDynamicLapTimePerLap": 30,
+    "goldTime": 190,
+    "goldTime2": 55,
+    "goldTime3": 50,
+    "goldTimePenalty": 0,
+    "goldTimeTotal": 60,
+    "justFinishPenalty": 0,
+    "lapTime1": 93.5,
+    "lapTime2": 50,
+    "lapTime3": 45,
+    "lapTime4": 40,
+    "lapTime5": 35,
+    "mapPreviewMode": "navgraph",
+    "recoverLimit": 3,
+    "recoverPenalty": 4,
+    "reversible": false,
+    "silver1Laps": 2,
+    "silver2Laps": -1,
+    "silver3Laps": -1,
+    "silverDynamicLapTimeBase": 8,
+    "silverDynamicLapTimePerLap": 35,
+    "silverTime": 220,
+    "silverTime2": 115,
+    "silverTime3": 110,
+    "silverTimePenalty": 10,
+    "silverTimeTotal": 120,
+    "startScreenText": "Two figure-eight laps around Lens Flare Studios. Balance freeway speed with technical lots and residential turns."
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Lens Flare",
+  "author": "BNG Underground",
+  "description": "Two figure-eight laps around Lens Flare Studios. Balance freeway speed with technical lots and residential turns.\nBNG Underground first-clear base purse: $3100. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "timeTrial",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_3",
+    "label": "BNG Underground / Chapter 3"
+  },
+  "additionalAttributes": {
+    "difficulty": "medium"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "lens_flare"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "lens_flare"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -306.0655518,
+      -776.8910522,
+      137.4006653
+    ],
+    "rot": [
+      -0.002638956303,
+      -0.007408402561,
+      0.94199043,
+      -0.3355475843
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/bngu_lens_flare/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/timeTrial/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "bronzeTime": true,
+      "silverTime": true,
+      "goldTime": true
+    },
+    "defaultStarKeys": [
+      "bronzeTime",
+      "silverTime",
+      "goldTime"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

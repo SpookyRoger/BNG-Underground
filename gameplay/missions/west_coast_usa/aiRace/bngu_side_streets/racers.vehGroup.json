@@ -1,0 +1,21 @@
+{
+  "name": "Side Streets",
+  "type": "custom",
+  "data": [
+    {
+      "model": "covet",
+      "config": "DXi_M",
+      "paintName": "random"
+    },
+    {
+      "model": "pessima",
+      "config": "LX_M",
+      "paintName": "random"
+    },
+    {
+      "model": "covet",
+      "config": "sport",
+      "paintName": "random"
+    }
+  ]
+}

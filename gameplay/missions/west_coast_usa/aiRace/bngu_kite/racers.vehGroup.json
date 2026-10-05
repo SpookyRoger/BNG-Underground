@@ -1,0 +1,11 @@
+{
+  "name": "Kite: Open Channel",
+  "type": "custom",
+  "data": [
+    {
+      "model": "covet",
+      "config": "DXi_M",
+      "paintName": "random"
+    }
+  ]
+}

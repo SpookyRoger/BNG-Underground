@@ -1,0 +1,21 @@
+{
+  "name": "Last Exit",
+  "type": "custom",
+  "data": [
+    {
+      "model": "bx",
+      "config": "track_M",
+      "paintName": "random"
+    },
+    {
+      "model": "sunburst2",
+      "config": "sport_RS_M",
+      "paintName": "random"
+    },
+    {
+      "model": "covet",
+      "config": "gtz",
+      "paintName": "random"
+    }
+  ]
+}

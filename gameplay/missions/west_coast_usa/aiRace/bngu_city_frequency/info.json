@@ -1,0 +1,135 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "camPathActive": true,
+    "damageFailActive": false,
+    "damageFailText": "missions.aiRace.general.damageFail",
+    "damageLimit": 20000,
+    "flipLimit": -1,
+    "goalCollisionsLimit": 1,
+    "goalCollisionsTarget": 6,
+    "goalLaps": 4,
+    "goalRecoveries": 0,
+    "goalTime": 180,
+    "lapCount": 3,
+    "mapPreviewMode": "navgraph",
+    "maxRacerCount": 3,
+    "minRacerCount": 3,
+    "playerStartIndex": 0,
+    "prefabActive": true,
+    "raceFile": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+    "racerAggression": 1.045,
+    "racerAwareness": true,
+    "racerCount": 3,
+    "racerRandomnessScale": 1,
+    "racerRough": false,
+    "racerRubberbandMode": false,
+    "racerSkill": 0.945,
+    "recoverLimit": -1,
+    "shuffleGroup": false,
+    "smartStartPlace": false,
+    "startText": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "stoppedLimit": 4,
+    "useGroundmarkers": true,
+    "vehicleFilters": {
+      "allowAuxiliaryVehicles": false,
+      "allowLoadedTrailers": false,
+      "baseFilter": {},
+      "manualAdditions": {},
+      "manualRemovals": {},
+      "maxVehicles": 0,
+      "popAttribute": "Population",
+      "probabilitySettings": {}
+    },
+    "vehicleGroupActive": true,
+    "vehicleGroupByClass": "disabled",
+    "vehicleGroupByClassActive": false,
+    "vehiclePerformanceOffset": 5
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | City Frequency",
+  "author": "BNG Underground",
+  "description": "Hold your line through the city. Finish on the podium to make this meet count.\nBNG Underground first-clear base purse: $4600. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "aiRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_5",
+    "label": "BNG Underground / Chapter 5"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "city_frequency"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "city_frequency"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/aiRace/003-street/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/aiRace/003-street/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/bngu_city_frequency/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/003-street/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/aiRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "finishBronze": true,
+      "finishSilver": true,
+      "finishGold": true
+    },
+    "defaultStarKeys": [
+      "finishBronze",
+      "finishSilver",
+      "finishGold"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

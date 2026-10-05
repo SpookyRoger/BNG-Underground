@@ -1,0 +1,133 @@
+{
+  "missionTypeData": {
+    "allowFlip": true,
+    "allowRecover": true,
+    "camPathActive": true,
+    "damageFailActive": false,
+    "damageFailText": "missions.aiRace.general.damageFail",
+    "damageLimit": 20000,
+    "flipLimit": -1,
+    "goalCollisionsLimit": 1,
+    "goalCollisionsTarget": 5,
+    "goalLaps": 3,
+    "goalRecoveries": 0,
+    "goalTime": 200,
+    "lapCount": 3,
+    "mapPreviewMode": "navgraph",
+    "maxRacerCount": 1,
+    "minRacerCount": 1,
+    "playerStartIndex": 0,
+    "prefabActive": true,
+    "raceFile": "/gameplay/missions/west_coast_usa/aiRace/002-highway/race.race.json",
+    "racerAggression": 1.045,
+    "racerAwareness": true,
+    "racerCount": 1,
+    "racerRandomnessScale": 1,
+    "racerRough": false,
+    "racerRubberbandMode": false,
+    "racerSkill": 0.945,
+    "recoverLimit": -1,
+    "shuffleGroup": false,
+    "smartStartPlace": false,
+    "startText": "A district headline race. Only first place settles this one.",
+    "stoppedLimit": 4,
+    "useGroundmarkers": true,
+    "vehicleFilters": {
+      "allowAuxiliaryVehicles": false,
+      "allowLoadedTrailers": false,
+      "baseFilter": {},
+      "manualAdditions": {},
+      "manualRemovals": {},
+      "maxVehicles": 0,
+      "popAttribute": "Population",
+      "probabilitySettings": {}
+    },
+    "vehicleGroupActive": true,
+    "vehicleGroupByClass": "disabled",
+    "vehicleGroupByClassActive": false,
+    "vehiclePerformanceOffset": 5
+  },
+  "setupModules": {
+    "environment": {
+      "enabled": false
+    },
+    "traffic": {
+      "enabled": false
+    },
+    "vehicles": {
+      "enabled": true,
+      "includePlayerVehicle": true,
+      "prioritizePlayerVehicle": true,
+      "vehicles": [],
+      "playerVehicleDiffs": {}
+    }
+  },
+  "name": "BNG Underground | Nocturne: Underground",
+  "author": "BNG Underground",
+  "description": "A district headline race. Only first place settles this one.\nBNG Underground first-clear base purse: $12500. Medal and replay modifiers apply. Campaign progress and rewards require an active BNG Underground session.",
+  "missionType": "aiRace",
+  "devMission": false,
+  "retryBehaviour": "infiniteRetries",
+  "grouping": {
+    "id": "bngu_chapter_5",
+    "label": "BNG Underground / Chapter 5"
+  },
+  "additionalAttributes": {
+    "difficulty": "high"
+  },
+  "customAdditionalAttributes": {},
+  "isAvailableAsScenario": false,
+  "startCondition": {
+    "type": "bnguEvent",
+    "eventId": "nocturne"
+  },
+  "visibleCondition": {
+    "type": "bnguVisible",
+    "eventId": "nocturne"
+  },
+  "previewFile": "/gameplay/missions/west_coast_usa/aiRace/002-highway/preview.jpg",
+  "thumbnailFile": "/gameplay/missions/west_coast_usa/aiRace/002-highway/thumbnail.jpg",
+  "startTrigger": {
+    "type": "coordinates",
+    "level": "west_coast_usa",
+    "pos": [
+      461.8320923,
+      697.1757202,
+      117.2775269
+    ],
+    "rot": [
+      -4.979334877e-05,
+      2.551276345e-05,
+      0.4560012151,
+      0.8899791507
+    ],
+    "radius": 5
+  },
+  "layers": [
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/bngu_nocturne/",
+      "isMissionFolderDir": true
+    },
+    {
+      "dir": "/gameplay/missions/west_coast_usa/aiRace/002-highway/"
+    },
+    {
+      "dir": "/gameplay/missionTypes/aiRace/",
+      "isMissionTypeDir": true
+    }
+  ],
+  "careerSetup": {
+    "showInCareer": false,
+    "showInFreeroam": true,
+    "starsActive": {
+      "finishGold": true,
+      "finishSilver": true
+    },
+    "defaultStarKeys": [
+      "finishGold",
+      "finishSilver"
+    ],
+    "starRewards": {},
+    "starOutroTexts": {}
+  }
+}

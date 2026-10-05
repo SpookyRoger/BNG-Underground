@@ -1,0 +1,1663 @@
+[
+  {
+    "id": "first_call",
+    "name": "First Call",
+    "chapter": 1,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/007-Street/",
+    "missionId": "west_coast_usa/timeTrial/bngu_first_call",
+    "reward": 750,
+    "rep": 60,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 210,
+      "silverTime": 170,
+      "goldTime": 130
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      -707.4020386,
+      129.270462,
+      118.5249786
+    ],
+    "rot": [
+      -0.00132149295,
+      -0.003752723336,
+      0.3794088066,
+      0.9252204895
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/007-Street/race.race.json",
+      "sourceSha256": "d6c3e755136b699dd9d6fae920ae2ab5147843cfb273cc54dfa82efad5a33789"
+    }
+  },
+  {
+    "id": "side_streets",
+    "name": "Side Streets",
+    "chapter": 1,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/",
+    "missionId": "west_coast_usa/aiRace/bngu_side_streets",
+    "reward": 1000,
+    "rep": 70,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 1
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+      "sourceSha256": "97ac76073b49c4e65dd87a8978f0257431ee49564c20aa2bc8194e23f3bdce78"
+    }
+  },
+  {
+    "id": "long_way_home",
+    "name": "Long Way Home",
+    "chapter": 1,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/",
+    "missionId": "west_coast_usa/aiRace/bngu_long_way_home",
+    "reward": 1100,
+    "rep": 70,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -51.78801727,
+      399.7573547,
+      101.6487198
+    ],
+    "rot": [
+      -0.001956184475,
+      -0.00558823746,
+      0.9438259412,
+      -0.3303899783
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 14,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/race.race.json",
+      "sourceSha256": "6d8bcfd07b225f14f13f12c864f93bf73bb2adddf9de5ced32cf49be4308d2a4"
+    }
+  },
+  {
+    "id": "clutch_city",
+    "name": "Clutch City",
+    "chapter": 1,
+    "kind": "Drag",
+    "missionType": "dragStripRace",
+    "source": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/",
+    "missionId": "west_coast_usa/dragStripRace/bngu_clutch_city",
+    "reward": 900,
+    "rep": 60,
+    "boss": false,
+    "winStar": "timeBronze",
+    "silverStar": "timeSilver",
+    "goldStar": "timeGold",
+    "overrides": {
+      "timeBronze": 23,
+      "timeSilver": 19,
+      "timeGold": 16
+    },
+    "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ]
+  },
+  {
+    "id": "alley_signal",
+    "name": "Alley Signal",
+    "chapter": 1,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/022-Alleyway/",
+    "missionId": "west_coast_usa/timeTrial/bngu_alley_signal",
+    "reward": 850,
+    "rep": 60,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 240,
+      "silverTime": 180,
+      "goldTime": 135
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      -159.3231354,
+      587.2422485,
+      74.82691956
+    ],
+    "rot": [
+      2.398081823e-05,
+      -0.0003864185354,
+      0.9998359503,
+      -0.01810455837
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/022-Alleyway/race.race.json",
+      "sourceSha256": "bb373ced45f66390ccc0a2eff192eb782e64ec140e154799c2f3ca517d013c31"
+    }
+  },
+  {
+    "id": "first_slide",
+    "name": "First Slide",
+    "chapter": 1,
+    "kind": "Drift",
+    "missionType": "drift",
+    "source": "/gameplay/missions/west_coast_usa/drift/005-bootcamp/",
+    "missionId": "west_coast_usa/drift/bngu_first_slide",
+    "reward": 900,
+    "rep": 65,
+    "boss": false,
+    "winStar": "bronze",
+    "silverStar": "silver",
+    "goldStar": "gold",
+    "overrides": {
+      "bronzePoints": 800,
+      "silverPoints": 1800,
+      "goldPoints": 3500
+    },
+    "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "pos": [
+      534.7675781,
+      -99.53781891,
+      146.5759277
+    ],
+    "rot": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "open_invite",
+    "name": "Open Invite",
+    "chapter": 1,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/006-basic/",
+    "missionId": "west_coast_usa/aiRace/bngu_open_invite",
+    "reward": 950,
+    "rep": 65,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -734.1043701,
+      -40.67974472,
+      101.9884338
+    ],
+    "rot": [
+      -0.007854572304,
+      5.983392491e-05,
+      0.3847636495,
+      0.9229816893
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 6,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/006-basic/race.race.json",
+      "sourceSha256": "eafe134117dce3ab01fed667870d54f626085b6cbb051b36962796288867155c"
+    }
+  },
+  {
+    "id": "garage_crossover",
+    "name": "Garage Crossover",
+    "chapter": 1,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_commercial_002/",
+    "missionId": "west_coast_usa/timeTrial/bngu_garage_crossover",
+    "reward": 900,
+    "rep": 60,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "defaultLaps": 2,
+      "bronzeTime": 135,
+      "silverTime": 100,
+      "goldTime": 80
+    },
+    "description": "Two laps around the commercial blocks. Tight turns and elevation changes reward a clean, nimble build.",
+    "pos": [
+      -305.6061401,
+      -30.1678524,
+      119.3841858
+    ],
+    "rot": [
+      -0.0004833294929,
+      -2.29924285e-05,
+      -0.04751717902,
+      0.9988703037
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 5,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_commercial_002/race.race.json",
+      "sourceSha256": "14efcea3973bad6bc677a06ee180e04ac64595e7df25ddef6b3a1cff1e0b1d8b"
+    }
+  },
+  {
+    "id": "kite",
+    "name": "Kite: Open Channel",
+    "chapter": 1,
+    "kind": "Rival",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/",
+    "missionId": "west_coast_usa/aiRace/bngu_kite",
+    "reward": 2200,
+    "rep": 110,
+    "boss": true,
+    "winStar": "finishGold",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "A district headline race. Only first place settles this one.",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+      "sourceSha256": "97ac76073b49c4e65dd87a8978f0257431ee49564c20aa2bc8194e23f3bdce78"
+    }
+  },
+  {
+    "id": "pipeline",
+    "name": "Pipeline",
+    "chapter": 2,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/008-pipeline/",
+    "missionId": "west_coast_usa/aiRace/bngu_pipeline",
+    "reward": 1650,
+    "rep": 85,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -734.5271606,
+      -40.96073151,
+      101.9859695
+    ],
+    "rot": [
+      -0.003945537729,
+      0.001604611212,
+      0.3767235428,
+      0.9263159452
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 12,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/008-pipeline/race.race.json",
+      "sourceSha256": "fabf9495f368d0608efeb57f43de1ba8803cca93b71c980cfdba31564037dec2"
+    }
+  },
+  {
+    "id": "steel_loop",
+    "name": "Steel Loop",
+    "chapter": 2,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/006-basic/",
+    "missionId": "west_coast_usa/aiRace/bngu_steel_loop",
+    "reward": 1700,
+    "rep": 85,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -734.1043701,
+      -40.67974472,
+      101.9884338
+    ],
+    "rot": [
+      -0.007854572304,
+      5.983392491e-05,
+      0.3847636495,
+      0.9229816893
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 6,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/006-basic/race.race.json",
+      "sourceSha256": "eafe134117dce3ab01fed667870d54f626085b6cbb051b36962796288867155c"
+    }
+  },
+  {
+    "id": "dockside_slide",
+    "name": "Dockside Slide",
+    "chapter": 2,
+    "kind": "Drift",
+    "missionType": "drift",
+    "source": "/gameplay/missions/west_coast_usa/drift/009-Portsideslide/",
+    "missionId": "west_coast_usa/drift/bngu_dockside_slide",
+    "reward": 1550,
+    "rep": 80,
+    "boss": false,
+    "winStar": "bronze",
+    "silverStar": "silver",
+    "goldStar": "gold",
+    "overrides": {
+      "bronzePoints": 1500,
+      "silverPoints": 3500,
+      "goldPoints": 6500
+    },
+    "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "pos": [
+      546.5793457,
+      1599.496338,
+      74.66396332
+    ],
+    "rot": [
+      1.050090929e-06,
+      3.478130834e-08,
+      -0.02793304647,
+      0.9996097963
+    ]
+  },
+  {
+    "id": "redline_receipt",
+    "name": "Redline Receipt",
+    "chapter": 2,
+    "kind": "Drag",
+    "missionType": "dragStripRace",
+    "source": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/",
+    "missionId": "west_coast_usa/dragStripRace/bngu_redline_receipt",
+    "reward": 1550,
+    "rep": 80,
+    "boss": false,
+    "winStar": "timeBronze",
+    "silverStar": "timeSilver",
+    "goldStar": "timeGold",
+    "overrides": {
+      "timeBronze": 21,
+      "timeSilver": 17,
+      "timeGold": 14
+    },
+    "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ]
+  },
+  {
+    "id": "salt_air",
+    "name": "Salt Air",
+    "chapter": 2,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/",
+    "missionId": "west_coast_usa/timeTrial/bngu_salt_air",
+    "reward": 1750,
+    "rep": 85,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 240,
+      "silverTime": 190,
+      "goldTime": 150
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      -521.7622681,
+      2010.733032,
+      78.81229401
+    ],
+    "rot": [
+      -0.001748641061,
+      -0.004552390826,
+      -0.6212528848,
+      0.7835949662
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 12,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/024-Spearloop/race.race.json",
+      "sourceSha256": "5117a06c99c0113e7913fe2b5a747109aaf2df5b5ccaa2b8664015db66c83e5a"
+    }
+  },
+  {
+    "id": "dock_circuit",
+    "name": "Dock Crew Circuit",
+    "chapter": 2,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/",
+    "missionId": "west_coast_usa/aiRace/bngu_dock_circuit",
+    "reward": 1700,
+    "rep": 85,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+      "sourceSha256": "97ac76073b49c4e65dd87a8978f0257431ee49564c20aa2bc8194e23f3bdce78"
+    }
+  },
+  {
+    "id": "warehouse_clock",
+    "name": "Warehouse Clock",
+    "chapter": 2,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/008-Street/",
+    "missionId": "west_coast_usa/timeTrial/bngu_warehouse_clock",
+    "reward": 1600,
+    "rep": 80,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 230,
+      "silverTime": 175,
+      "goldTime": 130
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      49.54389191,
+      665.927002,
+      74.72003174
+    ],
+    "rot": [
+      1.20660394e-08,
+      6.67732368e-07,
+      0.9998367744,
+      -0.01806722348
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 9,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/008-Street/race.race.json",
+      "sourceSha256": "a7b24b1f24e8d4e8cb99967e48b2925a3fe6cd935e77d25604885dd986b1c010"
+    }
+  },
+  {
+    "id": "pier_pressure",
+    "name": "Pier Pressure",
+    "chapter": 2,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_vintage_001/",
+    "missionId": "west_coast_usa/timeTrial/bngu_pier_pressure",
+    "reward": 1900,
+    "rep": 85,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "defaultLaps": 2,
+      "bronzeTime": 180,
+      "silverTime": 150,
+      "goldTime": 120
+    },
+    "description": "A waterfront clock run through warehouses and the pier. Carry a rhythm through the wide turns for two clean laps.",
+    "pos": [
+      -10.38590622,
+      576.3099365,
+      74.72003174
+    ],
+    "rot": [
+      0,
+      0,
+      0.7301165068,
+      0.6833226811
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_vintage_001/race.race.json",
+      "sourceSha256": "a5504fe493e61aed40779afdcb6b0832407bd0d8ad763b7399d383a59ead5f77"
+    }
+  },
+  {
+    "id": "switch",
+    "name": "Switch: Shift Change",
+    "chapter": 2,
+    "kind": "Rival",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/",
+    "missionId": "west_coast_usa/aiRace/bngu_switch",
+    "reward": 3600,
+    "rep": 135,
+    "boss": true,
+    "winStar": "finishGold",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "A district headline race. Only first place settles this one.",
+    "pos": [
+      -247.0674286,
+      660.0418701,
+      74.78826904
+    ],
+    "rot": [
+      -1.022374196e-05,
+      1.020485584e-05,
+      0.7064527632,
+      0.7077601946
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 24,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/race.race.json",
+      "sourceSha256": "aea15bd0a807c1d65de81b532f544cb0d7c77b1bef8549ba5a7c3aaf86b94815"
+    }
+  },
+  {
+    "id": "night_loop",
+    "name": "Night Loop",
+    "chapter": 3,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/002-highway/",
+    "missionId": "west_coast_usa/aiRace/bngu_night_loop",
+    "reward": 2400,
+    "rep": 100,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 1
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      461.8320923,
+      697.1757202,
+      117.2775269
+    ],
+    "rot": [
+      -4.979334877e-05,
+      2.551276345e-05,
+      0.4560012151,
+      0.8899791507
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 16,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/002-highway/race.race.json",
+      "sourceSha256": "82e553a3bc37d2880f781f8311f8c9cdf1a2799b86c9e8a2eaeebdfc713d4479"
+    }
+  },
+  {
+    "id": "cross_town",
+    "name": "Cross Town",
+    "chapter": 3,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/",
+    "missionId": "west_coast_usa/aiRace/bngu_cross_town",
+    "reward": 2550,
+    "rep": 105,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -247.0674286,
+      660.0418701,
+      74.78826904
+    ],
+    "rot": [
+      -1.022374196e-05,
+      1.020485584e-05,
+      0.7064527632,
+      0.7077601946
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 24,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/race.race.json",
+      "sourceSha256": "aea15bd0a807c1d65de81b532f544cb0d7c77b1bef8549ba5a7c3aaf86b94815"
+    }
+  },
+  {
+    "id": "concrete_lines",
+    "name": "Concrete Lines",
+    "chapter": 3,
+    "kind": "Drift",
+    "missionType": "drift",
+    "source": "/gameplay/missions/west_coast_usa/drift/010-BelascoDrift1/",
+    "missionId": "west_coast_usa/drift/bngu_concrete_lines",
+    "reward": 2250,
+    "rep": 95,
+    "boss": false,
+    "winStar": "bronze",
+    "silverStar": "silver",
+    "goldStar": "gold",
+    "overrides": {
+      "bronzePoints": 3000,
+      "silverPoints": 7000,
+      "goldPoints": 12000
+    },
+    "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "pos": [
+      583.0240479,
+      -688.1670532,
+      200.6717987
+    ],
+    "rot": [
+      7.535489663e-07,
+      1.38138471e-06,
+      0.8778778339,
+      -0.4788846507
+    ]
+  },
+  {
+    "id": "overpass_clock",
+    "name": "Overpass Clock",
+    "chapter": 3,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/010-Highway/",
+    "missionId": "west_coast_usa/timeTrial/bngu_overpass_clock",
+    "reward": 2400,
+    "rep": 100,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 240,
+      "silverTime": 180,
+      "goldTime": 145
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      -855.8111572,
+      -398.6627808,
+      99.15771484
+    ],
+    "rot": [
+      0.03384895463,
+      -0.01153306021,
+      0.953292764,
+      -0.2999235619
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 18,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/010-Highway/race.race.json",
+      "sourceSha256": "bc07d8f450fd23d4cf34402b8c1f11342eed8df0593e6952da1acb4162101347"
+    }
+  },
+  {
+    "id": "launch_window",
+    "name": "Launch Window",
+    "chapter": 3,
+    "kind": "Drag",
+    "missionType": "dragStripRace",
+    "source": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/",
+    "missionId": "west_coast_usa/dragStripRace/bngu_launch_window",
+    "reward": 2300,
+    "rep": 95,
+    "boss": false,
+    "winStar": "timeBronze",
+    "silverStar": "timeSilver",
+    "goldStar": "timeGold",
+    "overrides": {
+      "timeBronze": 19,
+      "timeSilver": 16,
+      "timeGold": 13
+    },
+    "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ]
+  },
+  {
+    "id": "city_return",
+    "name": "City Return",
+    "chapter": 3,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/",
+    "missionId": "west_coast_usa/aiRace/bngu_city_return",
+    "reward": 2400,
+    "rep": 100,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+      "sourceSha256": "97ac76073b49c4e65dd87a8978f0257431ee49564c20aa2bc8194e23f3bdce78"
+    }
+  },
+  {
+    "id": "return_signal",
+    "name": "Return Signal",
+    "chapter": 3,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/",
+    "missionId": "west_coast_usa/aiRace/bngu_return_signal",
+    "reward": 2500,
+    "rep": 100,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -51.78801727,
+      399.7573547,
+      101.6487198
+    ],
+    "rot": [
+      -0.001956184475,
+      -0.00558823746,
+      0.9438259412,
+      -0.3303899783
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 14,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/race.race.json",
+      "sourceSha256": "6d8bcfd07b225f14f13f12c864f93bf73bb2adddf9de5ced32cf49be4308d2a4"
+    }
+  },
+  {
+    "id": "lens_flare",
+    "name": "Lens Flare",
+    "chapter": 3,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/",
+    "missionId": "west_coast_usa/timeTrial/bngu_lens_flare",
+    "reward": 3100,
+    "rep": 100,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "defaultLaps": 2,
+      "bronzeTime": 250,
+      "silverTime": 220,
+      "goldTime": 190
+    },
+    "description": "Two figure-eight laps around Lens Flare Studios. Balance freeway speed with technical lots and residential turns.",
+    "pos": [
+      -306.0655518,
+      -776.8910522,
+      137.4006653
+    ],
+    "rot": [
+      -0.002638956303,
+      -0.007408402561,
+      0.94199043,
+      -0.3355475843
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 14,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_intermediate_003/race.race.json",
+      "sourceSha256": "b64732e8c37f41dd06d6a7503e583d6ad4ef2ba5e7439fc496fb96880070dfa2"
+    }
+  },
+  {
+    "id": "relay",
+    "name": "Relay: Carrier Wave",
+    "chapter": 3,
+    "kind": "Rival",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/005-highway/",
+    "missionId": "west_coast_usa/aiRace/bngu_relay",
+    "reward": 5200,
+    "rep": 160,
+    "boss": true,
+    "winStar": "finishGold",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "A district headline race. Only first place settles this one.",
+    "pos": [
+      546.2619019,
+      776.7661743,
+      115.1792374
+    ],
+    "rot": [
+      0.0006853699528,
+      0.001247435975,
+      0.8764284928,
+      -0.4815299276
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 13,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/005-highway/race.race.json",
+      "sourceSha256": "5b871e4efa2b1482fa046b674015f53013db44c5a76970da203f69b1056e8eb7"
+    }
+  },
+  {
+    "id": "ridge_run",
+    "name": "Ridge Run",
+    "chapter": 4,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/",
+    "missionId": "west_coast_usa/aiRace/bngu_ridge_run",
+    "reward": 3400,
+    "rep": 120,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 1
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      0.0008255243694,
+      0.0007359911607,
+      0.9868822859,
+      0.1614376989
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/race.race.json",
+      "sourceSha256": "5b5c4f0ab4dfe35de583a34d973f2e50de44997ddd30f48cb2a602557cf0f998"
+    }
+  },
+  {
+    "id": "high_tension",
+    "name": "High Tension",
+    "chapter": 4,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/005-highway/",
+    "missionId": "west_coast_usa/aiRace/bngu_high_tension",
+    "reward": 3500,
+    "rep": 120,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      546.2619019,
+      776.7661743,
+      115.1792374
+    ],
+    "rot": [
+      0.0006853699528,
+      0.001247435975,
+      0.8764284928,
+      -0.4815299276
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 13,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/005-highway/race.race.json",
+      "sourceSha256": "5b871e4efa2b1482fa046b674015f53013db44c5a76970da203f69b1056e8eb7"
+    }
+  },
+  {
+    "id": "switchback_clock",
+    "name": "Switchback Clock",
+    "chapter": 4,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/",
+    "missionId": "west_coast_usa/timeTrial/bngu_switchback_clock",
+    "reward": 3250,
+    "rep": 115,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 300,
+      "silverTime": 240,
+      "goldTime": 190
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      -0.0001672614891,
+      0.0009922716815,
+      0.9860883158,
+      0.1662191949
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/012-Mountain/race.race.json",
+      "sourceSha256": "bf6b16b7ce3bd23087ac7e6ed9bf72c453b589395d99d733ae8214b546250abd"
+    }
+  },
+  {
+    "id": "slip_angle",
+    "name": "Slip Angle",
+    "chapter": 4,
+    "kind": "Drift",
+    "missionType": "drift",
+    "source": "/gameplay/missions/west_coast_usa/drift/004-Industrial/",
+    "missionId": "west_coast_usa/drift/bngu_slip_angle",
+    "reward": 3200,
+    "rep": 115,
+    "boss": false,
+    "winStar": "bronze",
+    "silverStar": "silver",
+    "goldStar": "gold",
+    "overrides": {
+      "bronzePoints": 4500,
+      "silverPoints": 9000,
+      "goldPoints": 15000
+    },
+    "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "pos": [
+      -10.38590622,
+      576.3099365,
+      74.72003174
+    ],
+    "rot": [
+      0,
+      0,
+      0.9999995232,
+      0.0009347954183
+    ]
+  },
+  {
+    "id": "last_exit",
+    "name": "Last Exit",
+    "chapter": 4,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/",
+    "missionId": "west_coast_usa/aiRace/bngu_last_exit",
+    "reward": 3500,
+    "rep": 120,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -51.78801727,
+      399.7573547,
+      101.6487198
+    ],
+    "rot": [
+      -0.001956184475,
+      -0.00558823746,
+      0.9438259412,
+      -0.3303899783
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 14,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/007-house/race.race.json",
+      "sourceSha256": "6d8bcfd07b225f14f13f12c864f93bf73bb2adddf9de5ced32cf49be4308d2a4"
+    }
+  },
+  {
+    "id": "quarter_past",
+    "name": "Quarter Past Midnight",
+    "chapter": 4,
+    "kind": "Drag",
+    "missionType": "dragStripRace",
+    "source": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/",
+    "missionId": "west_coast_usa/dragStripRace/bngu_quarter_past",
+    "reward": 3300,
+    "rep": 115,
+    "boss": false,
+    "winStar": "timeBronze",
+    "silverStar": "timeSilver",
+    "goldStar": "timeGold",
+    "overrides": {
+      "timeBronze": 18,
+      "timeSilver": 15,
+      "timeGold": 12
+    },
+    "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ]
+  },
+  {
+    "id": "ridge_clock",
+    "name": "Ridge Clock",
+    "chapter": 4,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/006-Cell/",
+    "missionId": "west_coast_usa/timeTrial/bngu_ridge_clock",
+    "reward": 3250,
+    "rep": 115,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 200,
+      "silverTime": 155,
+      "goldTime": 120
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      653.9649658,
+      -605.6547852,
+      227.93396
+    ],
+    "rot": [
+      -0.0002927787516,
+      0.004392296636,
+      0.9977760866,
+      -0.06650941999
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 5,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/006-Cell/race.race.json",
+      "sourceSha256": "8a20ad9f820fd9285efcd1a8e1efc94430192e90a698d73eb563de23dc07e3a1"
+    }
+  },
+  {
+    "id": "urban_current",
+    "name": "Urban Current",
+    "chapter": 4,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_advanced_003/",
+    "missionId": "west_coast_usa/timeTrial/bngu_urban_current",
+    "reward": 4600,
+    "rep": 120,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "defaultLaps": 3,
+      "bronzeTime": 285,
+      "silverTime": 245,
+      "goldTime": 215
+    },
+    "description": "Three laps connecting steep downtown climbs, tight streets and Riverway Plaza. A balanced chassis earns its keep.",
+    "pos": [
+      -556.7503052,
+      143.6973572,
+      100.5937576
+    ],
+    "rot": [
+      0.004106163096,
+      0.009766025158,
+      0.9217809285,
+      -0.3875663609
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 3,
+      "checkpoints": 13,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_advanced_003/race.race.json",
+      "sourceSha256": "41dc50673de908614d0753898fe3deb3ec8eadefa14d111389ccc9496b9ae24e"
+    }
+  },
+  {
+    "id": "vale",
+    "name": "Vale: Above the Static",
+    "chapter": 4,
+    "kind": "Rival",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/",
+    "missionId": "west_coast_usa/aiRace/bngu_vale",
+    "reward": 7000,
+    "rep": 180,
+    "boss": true,
+    "winStar": "finishGold",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "A district headline race. Only first place settles this one.",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      0.0008255243694,
+      0.0007359911607,
+      0.9868822859,
+      0.1614376989
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/race.race.json",
+      "sourceSha256": "5b5c4f0ab4dfe35de583a34d973f2e50de44997ddd30f48cb2a602557cf0f998"
+    }
+  },
+  {
+    "id": "city_frequency",
+    "name": "City Frequency",
+    "chapter": 5,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/",
+    "missionId": "west_coast_usa/aiRace/bngu_city_frequency",
+    "reward": 4600,
+    "rep": 140,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 3
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      -453.46508789063,
+      501.25921630859,
+      96.406600952148
+    ],
+    "rot": [
+      -0.0013699648281478,
+      -0.00056518419868128,
+      -0.38137300735583,
+      0.92442005226172
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 3,
+      "checkpoints": 11,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/003-street/race.race.json",
+      "sourceSha256": "97ac76073b49c4e65dd87a8978f0257431ee49564c20aa2bc8194e23f3bdce78"
+    }
+  },
+  {
+    "id": "full_band",
+    "name": "Full Band",
+    "chapter": 5,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/",
+    "missionId": "west_coast_usa/aiRace/bngu_full_band",
+    "reward": 4700,
+    "rep": 140,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -247.0674286,
+      660.0418701,
+      74.78826904
+    ],
+    "rot": [
+      -1.022374196e-05,
+      1.020485584e-05,
+      0.7064527632,
+      0.7077601946
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 24,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/004-drive/race.race.json",
+      "sourceSha256": "aea15bd0a807c1d65de81b532f544cb0d7c77b1bef8549ba5a7c3aaf86b94815"
+    }
+  },
+  {
+    "id": "smoke_signal",
+    "name": "Smoke Signal",
+    "chapter": 5,
+    "kind": "Drift",
+    "missionType": "drift",
+    "source": "/gameplay/missions/west_coast_usa/drift/006-circuit/",
+    "missionId": "west_coast_usa/drift/bngu_smoke_signal",
+    "reward": 4300,
+    "rep": 130,
+    "boss": false,
+    "winStar": "bronze",
+    "silverStar": "silver",
+    "goldStar": "gold",
+    "overrides": {
+      "bronzePoints": 6000,
+      "silverPoints": 12000,
+      "goldPoints": 20000
+    },
+    "description": "Bring your own drift build. Link smooth slides and bank enough points for bronze. You can return later with a different car.",
+    "pos": [
+      534.7675781,
+      -99.53781891,
+      146.5759277
+    ],
+    "rot": [
+      -0.004021201876,
+      0.004271844049,
+      0.6854106586,
+      0.7281330993
+    ]
+  },
+  {
+    "id": "terminal_velocity",
+    "name": "Terminal Velocity",
+    "chapter": 5,
+    "kind": "Drag",
+    "missionType": "dragStripRace",
+    "source": "/gameplay/missions/west_coast_usa/dragStripRace/001-adlerDrag_500/",
+    "missionId": "west_coast_usa/dragStripRace/bngu_terminal_velocity",
+    "reward": 4400,
+    "rep": 135,
+    "boss": false,
+    "winStar": "timeBronze",
+    "silverStar": "timeSilver",
+    "goldStar": "timeGold",
+    "overrides": {
+      "timeBronze": 17,
+      "timeSilver": 14,
+      "timeGold": 11.5
+    },
+    "description": "Stage carefully, launch on green, win your run and beat the bronze time. A red light disqualifies you.",
+    "pos": [
+      -237.0183716,
+      -205.3325958,
+      118.8886719
+    ],
+    "rot": [
+      -0.003402252407,
+      -0.003419069572,
+      -0.1820309639,
+      0.9832809684
+    ]
+  },
+  {
+    "id": "end_of_dial",
+    "name": "End of the Dial",
+    "chapter": 5,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/009-Highway/",
+    "missionId": "west_coast_usa/timeTrial/bngu_end_of_dial",
+    "reward": 4650,
+    "rep": 140,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "bronzeTime": 270,
+      "silverTime": 210,
+      "goldTime": 170
+    },
+    "description": "Find a clean rhythm and beat the bronze target. Faster medals increase the purse.",
+    "pos": [
+      913.7087402,
+      -496.9181519,
+      162.841568
+    ],
+    "rot": [
+      0.0002612119837,
+      7.671570706e-05,
+      -0.2817898462,
+      0.9594760644
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 1,
+      "checkpoints": 40,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/009-Highway/race.race.json",
+      "sourceSha256": "3df8644c03918e5c27d1c78cccc90d676fc3139735b45b370a55d0b265b0465d"
+    }
+  },
+  {
+    "id": "steel_reprise",
+    "name": "Steel Reprise",
+    "chapter": 5,
+    "kind": "Sprint",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/008-pipeline/",
+    "missionId": "west_coast_usa/aiRace/bngu_steel_reprise",
+    "reward": 4500,
+    "rep": 135,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {},
+    "description": "One start, one finish. Take a podium place to put another district victory on your record.",
+    "pos": [
+      -734.5271606,
+      -40.96073151,
+      101.9859695
+    ],
+    "rot": [
+      -0.003945537729,
+      0.001604611212,
+      0.3767235428,
+      0.9263159452
+    ],
+    "course": {
+      "layout": "Point to point",
+      "laps": 1,
+      "checkpoints": 12,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/008-pipeline/race.race.json",
+      "sourceSha256": "fabf9495f368d0608efeb57f43de1ba8803cca93b71c980cfdba31564037dec2"
+    }
+  },
+  {
+    "id": "last_lights",
+    "name": "Last Lights",
+    "chapter": 5,
+    "kind": "Circuit",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/",
+    "missionId": "west_coast_usa/aiRace/bngu_last_lights",
+    "reward": 4800,
+    "rep": 145,
+    "boss": false,
+    "winStar": "finishBronze",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 2
+    },
+    "description": "Hold your line through the city. Finish on the podium to make this meet count.",
+    "pos": [
+      969.3267212,
+      -755.2893066,
+      165.9655762
+    ],
+    "rot": [
+      0.0008255243694,
+      0.0007359911607,
+      0.9868822859,
+      0.1614376989
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 10,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/001-Mountain/race.race.json",
+      "sourceSha256": "5b5c4f0ab4dfe35de583a34d973f2e50de44997ddd30f48cb2a602557cf0f998"
+    }
+  },
+  {
+    "id": "all_city",
+    "name": "All City",
+    "chapter": 5,
+    "kind": "Time attack",
+    "missionType": "timeTrial",
+    "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/",
+    "missionId": "west_coast_usa/timeTrial/bngu_all_city",
+    "reward": 8500,
+    "rep": 150,
+    "boss": false,
+    "winStar": "bronzeTime",
+    "silverStar": "silverTime",
+    "goldStar": "goldTime",
+    "overrides": {
+      "defaultLaps": 2,
+      "bronzeTime": 840,
+      "silverTime": 730,
+      "goldTime": 640
+    },
+    "description": "Two long laps from the bridge to the island and back through Belasco. An optional endurance meet: settle in and make every district count.",
+    "pos": [
+      204.6707153,
+      838.8943481,
+      101.4601212
+    ],
+    "rot": [
+      0.007879874907,
+      0.0007438028774,
+      -0.1097084938,
+      0.9939322918
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 2,
+      "checkpoints": 41,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/timeTrial/wcusa_tt_endurance_003/race.race.json",
+      "sourceSha256": "b1882766e6184188f7c4dd77f14c8075479f3159dbad10c24722e2860e3c67d1"
+    }
+  },
+  {
+    "id": "nocturne",
+    "name": "Nocturne: Underground",
+    "chapter": 5,
+    "kind": "Rival",
+    "missionType": "aiRace",
+    "source": "/gameplay/missions/west_coast_usa/aiRace/002-highway/",
+    "missionId": "west_coast_usa/aiRace/bngu_nocturne",
+    "reward": 12500,
+    "rep": 300,
+    "boss": true,
+    "winStar": "finishGold",
+    "silverStar": "finishSilver",
+    "goldStar": "finishGold",
+    "overrides": {
+      "lapCount": 3
+    },
+    "description": "A district headline race. Only first place settles this one.",
+    "pos": [
+      461.8320923,
+      697.1757202,
+      117.2775269
+    ],
+    "rot": [
+      -4.979334877e-05,
+      2.551276345e-05,
+      0.4560012151,
+      0.8899791507
+    ],
+    "course": {
+      "layout": "Circuit",
+      "laps": 3,
+      "checkpoints": 16,
+      "branching": false,
+      "source": "/gameplay/missions/west_coast_usa/aiRace/002-highway/race.race.json",
+      "sourceSha256": "82e553a3bc37d2880f781f8311f8c9cdf1a2799b86c9e8a2eaeebdfc713d4479"
+    }
+  }
+]

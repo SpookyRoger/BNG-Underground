@@ -1,0 +1,11 @@
+{
+  "name": "Vale: Above the Static",
+  "type": "custom",
+  "data": [
+    {
+      "model": "bx",
+      "config": "track_M",
+      "paintName": "random"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "enabledByDefault": true,
+  "spawnTimeout": 120,
+  "readyTimeout": 12,
+  "existingTimeout": 30,
+  "vehicles": [
+    { "model": "simple_traffic", "config": "covet_base" },
+    { "model": "simple_traffic", "config": "pessima_standard" },
+    { "model": "simple_traffic", "config": "bx_base_coupe" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {"id":"brakes","name":"Brakes","tuningGroup":"Brakes","slotPattern":"^(?:.*_brake_[FR](?:_5)?|brakepad_[FR])$","description":"A matched front/rear brake and pad set. Better heat tolerance can matter more than a single hard stop."},
+    {"id":"suspension","name":"Suspension","tuningGroup":"Suspension","tuningGroups":["Suspension","Alignment"],"slotPattern":"^.*_(?:strut|coilover)_[FR]$","description":"A matched front/rear spring and damper set. Fitting restores suspension and alignment setup. Race hardware adds controls; stiffer is not always faster on city streets."},
+    {"id":"differentials","name":"Differentials","tuningGroup":"Differentials","slotPattern":"^.*_differential_[FR]$","description":"Differentials for the car's existing driven axles. Keeps the base build's final-drive and gearbox hardware and drive layout. Supported ratio adjustments retain their saved setup."},
+    {"id":"wheels","name":"Wheels & tyres","feature":"wheels","tuningGroup":"Tyres","slotPattern":"^wheel_[FR]_(?:4|5|centerlug)$","description":"A complete front/rear rim and tyre set for the build's existing hubs. Choose a look and tyre setup; larger wheels are not automatically faster."},
+    {"id":"engine","name":"Engine kits","feature":"engineKits","tuningGroup":"Engine","description":"Matched native intake, ECU, internals, exhaust and cooling for this engine. Keeps the engine block and drivetrain; race electronics add tuning where supported."}
+  ],
+  "tiers": [
+    {"key":"street","name":"Street","chapter":1,"prices":{"brakes":450,"suspension":700,"differentials":650,"wheels":900,"engine":1200}},
+    {"key":"club","name":"Club","chapter":2,"prices":{"brakes":1200,"suspension":1800,"differentials":1400,"wheels":1800,"engine":3600}},
+    {"key":"pro","name":"Pro","chapter":4,"prices":{"brakes":2000,"suspension":3200,"differentials":2200,"wheels":2800,"engine":6800}}
+  ],
+  "engineDonors": [
+    {"id":"engine_factory_turbo","car":"covet","name":"Factory GTz turbo kit","chapter":1,"cost":1600,"sourceConfig":"15gtz_turbo_M","description":"Factory turbo induction, strengthened internals, sport ECU and exhaust, heavy-duty mounts and race radiator for the original 1.5L DOHC engine. Boost remains the native fixed setting."},
+    {"id":"engine_street_turbo","car":"covet","name":"Stage 1 street turbo kit","chapter":2,"cost":3600,"sourceConfig":"custom","description":"Stage 1 turbo, Evolution ECU, Stage 1 internals, pod filter, custom exhaust and matched cooling from the native street build. Keeps the original 1.5L DOHC engine and transmission."}
+  ],
+  "wheelAlternatives": [
+    {"id":"wheels_rz4","car":"covet","name":"Okudai RZ4 · 15-inch","chapter":2,"cost":1800,"sourceBuild":"pro","parts":{"wheel_F_4":"wheel_16a_15x7_F","wheel_R_4":"wheel_16a_15x7_R"},"description":"White RZ4 rims with the Pro preset's matched 195/50 R15 race tyres. A different look on the same rim dimensions; no engine package required."},
+    {"id":"wheels_pr01","car":"pessima","name":"Okudai PR01 · 15-inch","chapter":1,"cost":1000,"sourceBuild":"street","parts":{"wheel_F_4":"wheel_20a_15x7_F","wheel_R_4":"wheel_20a_15x7_R"},"description":"White PR01 rims with the Street preset's matched 195/60 R15 sport tyres. Fits the original four-lug hubs."},
+    {"id":"wheels_rz4","car":"bx","name":"Okudai RZ4 · 15-inch","chapter":1,"cost":1000,"sourceBuild":"street","parts":{"wheel_F_4":"wheel_16a_15x7_F","wheel_R_4":"wheel_16a_15x7_R"},"description":"White RZ4 rims with 195/60 R15 sport tyres from the Street preset. Fits the four-lug stock and Street builds."},
+    {"id":"wheels_typevx","car":"sunburst2","name":"Ibishu Type-VX · 17-inch","chapter":1,"cost":1100,"sourceBuild":"street","parts":{"wheel_F_5":"ibishu_wheel_09a_17x7_F","wheel_R_5":"ibishu_wheel_09a_17x7_R"},"description":"Silver Type-VX rims with the Street preset's 215/45 R17 sport tyres. A period street look on the existing five-lug hubs."},
+    {"id":"wheels_aero5","car":"midsize","name":"ETK Aero-5 · 16-inch","chapter":1,"cost":1000,"sourceBuild":"street","parts":{"wheel_F_5":"etk_wheel_07a_16x7_F","wheel_R_5":"etk_wheel_07a_16x7_R"},"description":"Aero-5 rims with the Street preset's 205/50 R16 sport tyres. Keeps the five-lug hubs and engine setup."}
+  ]
+}
